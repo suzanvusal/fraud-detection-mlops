@@ -1,3 +1,5 @@
 """FastAPI scoring API with sub-100ms inference."""
 
 # 00:32:54 — refactor: split docker-compose into dev and prod profiles
+
+# 10:07:02 — docs: update example in docstring of __init__
