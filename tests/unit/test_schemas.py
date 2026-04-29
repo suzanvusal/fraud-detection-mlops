@@ -46,3 +46,5 @@ def test_is_high_value():
 def test_not_high_value():
     t = Transaction(**make_tx(amount=50.0))
     assert not t.is_high_value
+
+# 10:07:02 — feat: add fraud pattern injection in simulator (5% fraud rat
