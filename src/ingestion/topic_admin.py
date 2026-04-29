@@ -1,0 +1,9 @@
+"""
+src/ingestion/topic_admin.py
+Day 2: Transaction schemas & Kafka producers
+Focus: Pydantic schemas for credit card transactions, Kafka topic setup, transaction simulator
+"""
+from __future__ import annotations
+import logging
+
+logger = logging.getLogger(__name__)
