@@ -1,0 +1,224 @@
+{
+  "project": "Real-Time Credit Card Fraud Detection MLOps System",
+  "description": "Production-grade fraud detection pipeline processing credit card transactions in real-time using Kafka, feature engineering, Isolation Forest + XGBoost ensemble, with automated drift detection and retraining.",
+  "phases": [
+    {"phase": 1, "name": "Foundation & Transaction Ingestion", "days": [1,2,3,4,5], "theme": "Kafka producers, transaction schemas, data simulation, CI/CD"},
+    {"phase": 2, "name": "Feature Engineering & Risk Scoring", "days": [6,7,8,9,10], "theme": "Velocity features, merchant risk, geolocation, behavioural patterns"},
+    {"phase": 3, "name": "ML Models & Real-Time Inference", "days": [11,12,13,14,15,16,17], "theme": "Isolation Forest, XGBoost, ensemble, FastAPI sub-100ms serving"},
+    {"phase": 4, "name": "Decision Engine & Case Management", "days": [18,19,20,21,22], "theme": "Rule engine, block/flag/allow decisions, analyst dashboard, feedback"},
+    {"phase": 5, "name": "Drift Detection & Auto Retraining", "days": [23,24,25,26,27], "theme": "Evidently drift, Airflow retraining DAG, champion/challenger, canary"},
+    {"phase": 6, "name": "Hardening, Tests & Documentation", "days": [28,29,30], "theme": "Integration tests, load tests, security, full docs"}
+  ],
+  "days": [
+    {
+      "day": 1, "title": "Project bootstrap & transaction schema design",
+      "focus": "Init repo, directory structure, transaction data models, base configs",
+      "files_to_create": ["src/__init__.py","src/ingestion/__init__.py","src/features/__init__.py","src/models/__init__.py","src/serving/__init__.py","src/decision/__init__.py","src/monitoring/__init__.py","configs/base_config.yaml","Makefile","README.md"],
+      "commit_tasks": ["chore: init fraud-detection-mlops project structure","chore: add pyproject.toml with all ML and streaming dependencies","chore: add Docker Compose for Kafka, Redis, PostgreSQL, MLflow","chore: add base_config.yaml with Kafka and feature store settings","docs: add initial README with fraud detection pipeline overview","ci: add GitHub Actions CI with lint, type-check, test steps","chore: add Makefile with common dev commands","chore: add .gitignore for Python, MLflow, model artifacts","chore: add .env.example with all environment variables","fix: correct Kafka broker connection string in docker-compose"],
+      "refactor_fix_commits": ["style: format all Python files with black","refactor: split docker-compose into dev and prod profiles","docs: add CONTRIBUTING.md with branching strategy","chore: pin all dependency versions","fix: correct Redis maxmemory config in docker-compose"]
+    },
+    {
+      "day": 2, "title": "Transaction schemas & Kafka producers",
+      "focus": "Pydantic schemas for credit card transactions, Kafka topic setup, transaction simulator",
+      "files_to_create": ["src/ingestion/schemas.py","src/ingestion/producer.py","src/ingestion/simulator.py","src/ingestion/topic_admin.py","tests/unit/test_schemas.py"],
+      "commit_tasks": ["feat: add Transaction Pydantic schema with all card fields","feat: add CardholderProfile schema with spending history","feat: add MerchantInfo schema with category and location","feat: implement Kafka producer with retry and metrics","feat: add transaction simulator generating realistic patterns","feat: add fraud pattern injection in simulator (5% fraud rate)","feat: implement topic admin for Kafka topic management","feat: add transaction ID generation with UUID4","test: add schema validation tests for all transaction fields","test: add simulator tests verifying fraud rate distribution"],
+      "refactor_fix_commits": ["fix: handle edge case when transaction amount is exactly zero","refactor: extract Kafka config to dataclass","fix: simulator not generating international transactions","perf: switch to orjson for transaction serialization","docs: add transaction schema field descriptions"]
+    },
+    {
+      "day": 3, "title": "Docker infrastructure & monitoring stack",
+      "focus": "Multi-stage Dockerfiles, health checks, Prometheus, Grafana setup",
+      "files_to_create": ["docker-compose.yml","infra/docker/Dockerfile.serving","infra/docker/Dockerfile.features","infra/prometheus/prometheus.yml","infra/grafana/dashboards/fraud_overview.json"],
+      "commit_tasks": ["feat: add multi-stage Dockerfile for serving service","feat: add multi-stage Dockerfile for feature engineering service","infra: add Docker Compose with Kafka, Redis, PostgreSQL, MLflow","infra: add Prometheus scrape config for all services","infra: add Grafana fraud overview dashboard","infra: configure Docker named volumes for data persistence","infra: add health check scripts for all containers","infra: add resource limits to all Docker services","feat: add docker-compose.monitoring.yml for observability stack"],
+      "refactor_fix_commits": ["fix: reduce Docker image size using python:3.11-slim","refactor: consolidate env vars into .env.example","fix: Grafana volume mount permissions","chore: add docker-compose.override.yml for local dev","docs: add Docker setup guide"]
+    },
+    {
+      "day": 4, "title": "CI/CD pipeline",
+      "focus": "GitHub Actions: lint, test, build, security scan, coverage",
+      "files_to_create": [".github/workflows/ci.yml",".github/workflows/security.yml","pyproject.toml",".pre-commit-config.yaml","scripts/run_tests.sh"],
+      "commit_tasks": ["ci: add full GitHub Actions CI with Python 3.11 and 3.12 matrix","ci: add pytest with 80% coverage threshold","ci: add ruff linting with auto-fix","ci: add mypy type checking step","ci: add Docker build verification","ci: add Trivy security scan for Docker images","ci: add Bandit SAST scan for Python security","ci: add pip-audit dependency vulnerability check","ci: add PR labeler workflow","ci: cache pip dependencies for faster CI runs"],
+      "refactor_fix_commits": ["fix: set PYTHONPATH correctly in CI","refactor: extract reusable CI steps to composite actions","ci: add concurrency group to cancel stale runs","docs: add CI badge to README","fix: mypy failing on missing type stubs"]
+    },
+    {
+      "day": 5, "title": "Kafka consumer & dead-letter queue",
+      "focus": "Transaction consumer, DLQ routing, schema validation, offset management",
+      "files_to_create": ["src/ingestion/consumer.py","src/ingestion/dlq_handler.py","src/ingestion/validator.py","configs/consumer_config.yaml","tests/unit/test_consumer.py"],
+      "commit_tasks": ["feat: implement TransactionConsumer with manual offset commit","feat: add DLQ handler for malformed transactions","feat: implement TransactionValidator with business rules","feat: add consumer lag metric to Prometheus","feat: implement graceful shutdown with signal handling","feat: add consumer group rebalance logging","feat: implement at-least-once processing guarantee","feat: add transaction throughput counter","test: add consumer integration test with embedded Kafka","test: add DLQ routing test for invalid transactions"],
+      "refactor_fix_commits": ["fix: handle KafkaTimeoutError with exponential backoff","refactor: move consumer config to Pydantic dataclass","fix: offset commit not happening on empty poll","perf: increase max_poll_records to 500","docs: add consumer processing flow diagram"]
+    },
+    {
+      "day": 6, "title": "Velocity feature engineering",
+      "focus": "Transaction velocity, frequency, amount patterns per card and merchant",
+      "files_to_create": ["src/features/velocity_features.py","src/features/window_aggregator.py","src/features/feature_schema.py","configs/feature_config.yaml","tests/unit/test_velocity_features.py"],
+      "commit_tasks": ["feat: implement transaction velocity counter per card (1min, 5min, 1hr)","feat: add amount velocity: sum of amounts per card per time window","feat: implement merchant velocity: transactions per merchant per hour","feat: add cross-border transaction frequency counter","feat: implement card-not-present velocity feature","feat: add night-time transaction ratio feature","feat: implement amount deviation from historical average","feat: add consecutive decline counter feature","feat: implement new merchant flag (first time card used at merchant)","test: add velocity feature tests with synthetic transaction sequences"],
+      "refactor_fix_commits": ["perf: use Redis pipelines for atomic velocity updates","fix: velocity counter not resetting after window expiry","refactor: extract window sizes to configs/feature_config.yaml","fix: cross-border detection using wrong country code field","docs: add feature engineering guide to docs/features.md"]
+    },
+    {
+      "day": 7, "title": "Geolocation & merchant risk features",
+      "focus": "Location-based features, merchant category risk, impossible travel detection",
+      "files_to_create": ["src/features/geo_features.py","src/features/merchant_risk.py","src/features/impossible_travel.py","configs/merchant_risk_config.yaml","tests/unit/test_geo_features.py"],
+      "commit_tasks": ["feat: implement impossible travel detector (speed between transactions)","feat: add distance from home country feature","feat: implement merchant category risk scorer","feat: add high-risk MCC (merchant category code) lookup","feat: implement geolocation velocity: unique countries per day","feat: add shipping/billing address mismatch feature","feat: implement IP geolocation mismatch detection","feat: add weekend/holiday transaction pattern feature","test: add impossible travel tests with known coordinates","test: add merchant risk scorer tests for all MCC categories"],
+      "refactor_fix_commits": ["fix: haversine distance formula using wrong radius","refactor: extract MCC risk scores to YAML config","fix: impossible travel not handling same-merchant transactions","perf: cache merchant risk scores in Redis","docs: add geolocation feature documentation"]
+    },
+    {
+      "day": 8, "title": "Behavioural features & feature store",
+      "focus": "Cardholder behaviour patterns, spending profile, Redis feature store",
+      "files_to_create": ["src/features/behaviour_features.py","src/features/spending_profile.py","src/features/feature_store.py","configs/redis_config.yaml","tests/unit/test_feature_store.py"],
+      "commit_tasks": ["feat: implement spending category distribution features","feat: add average transaction amount by hour-of-day","feat: implement typical merchant category profile per card","feat: add feature store backed by Redis Hash sets","feat: implement feature versioning and TTL management","feat: add spending profile builder from transaction history","feat: implement feature freshness checker","feat: add batch feature retrieval for model training","feat: implement feature store health monitoring","test: add feature store tests with Redis mock"],
+      "refactor_fix_commits": ["fix: feature TTL not extending on card activity","refactor: abstract feature store behind interface","fix: spending profile not updating on first transaction","perf: compress feature vectors before Redis storage","docs: add feature store architecture diagram"]
+    },
+    {
+      "day": 9, "title": "Alert engine & real-time rules",
+      "focus": "Rule-based pre-filter, hard rules, soft rules, rule versioning",
+      "files_to_create": ["src/decision/rule_engine.py","src/decision/hard_rules.py","src/decision/soft_rules.py","configs/rules_config.yaml","tests/unit/test_rule_engine.py"],
+      "commit_tasks": ["feat: implement RuleEngine with priority-ordered rule evaluation","feat: add hard rule: block transaction > $10,000 first use","feat: add hard rule: block if card reported stolen","feat: add hard rule: block impossible travel < 1 hour","feat: add soft rule: flag if amount > 3x average","feat: add soft rule: flag if new merchant + high amount","feat: add soft rule: flag night transaction in foreign country","feat: implement rule version control and hot-reload","feat: add rule evaluation audit log","test: add rule engine tests for all hard and soft rules"],
+      "refactor_fix_commits": ["fix: rule priority not respected in edge cases","refactor: move rule definitions to YAML config","fix: hot-reload causing brief rule gap","perf: cache rule evaluation results for 1 second","docs: add rule DSL documentation to docs/rules.md"]
+    },
+    {
+      "day": 10, "title": "Monitoring dashboards & Prometheus metrics",
+      "focus": "Custom fraud metrics, Grafana dashboards, SLO definitions",
+      "files_to_create": ["src/monitoring/metrics.py","infra/grafana/dashboards/transaction_pipeline.json","infra/grafana/dashboards/model_performance.json","infra/prometheus/rules/slo_rules.yml","infra/prometheus/alertmanager.yml"],
+      "commit_tasks": ["feat: add Counter for transactions processed per decision","feat: add Histogram for end-to-end detection latency","feat: add Gauge for fraud rate (rolling 1hr)","feat: add Counter for rule engine decisions","feat: implement Grafana transaction pipeline dashboard","feat: implement Grafana model performance dashboard","feat: add SLO rule: 99.9% decisions under 100ms","feat: add Prometheus alert for fraud rate spike","infra: configure Alertmanager for on-call routing"],
+      "refactor_fix_commits": ["fix: high cardinality on card_id Prometheus label","refactor: centralise metric registration","fix: Grafana dashboard refresh interval","docs: add runbook for fraud rate spike alert","chore: add Prometheus recording rules"]
+    },
+    {
+      "day": 11, "title": "MLflow experiment tracking & data pipeline",
+      "focus": "MLflow server, experiment config, training data assembly, feature matrix",
+      "files_to_create": ["src/models/mlflow_client.py","src/models/data_pipeline.py","src/models/feature_engineering.py","configs/mlflow_config.yaml","configs/training_config.yaml"],
+      "commit_tasks": ["feat: configure MLflow tracking server with PostgreSQL backend","feat: implement MLflow client wrapper with experiment management","feat: add training data extractor from feature store","feat: implement label generation from confirmed fraud cases","feat: add temporal train/val/test split to prevent leakage","feat: implement class imbalance handler with SMOTE","feat: add feature importance analysis utility","feat: log dataset statistics to MLflow","feat: implement feature matrix builder from Redis store","test: add data pipeline tests for temporal split correctness"],
+      "refactor_fix_commits": ["fix: temporal leakage in train/val split","refactor: separate feature computation from dataset assembly","fix: SMOTE failing with very low fraud rate","perf: parallelise feature extraction with joblib","docs: add data dictionary for all 47 features"]
+    },
+    {
+      "day": 12, "title": "Isolation Forest anomaly detector",
+      "focus": "Isolation Forest training, contamination tuning, anomaly scoring",
+      "files_to_create": ["src/models/isolation_forest.py","src/models/anomaly_scorer.py","notebooks/01_isolation_forest.ipynb","tests/unit/test_isolation_forest.py","configs/isolation_forest_config.yaml"],
+      "commit_tasks": ["feat: implement IsolationForestTrainer with MLflow tracking","feat: add contamination parameter tuning via cross-validation","feat: implement anomaly score normalisation to 0-1 range","feat: add feature importance via permutation for Isolation Forest","feat: implement model persistence with MLflow artifact logging","feat: add anomaly threshold optimisation for F1 score","feat: implement online anomaly scoring for streaming data","feat: add model performance metrics: precision, recall, AUC","test: add Isolation Forest tests with synthetic fraud patterns"],
+      "refactor_fix_commits": ["fix: contamination parameter too high causing false positives","refactor: extract scoring logic to AnomalyScorer class","fix: normalisation failing on zero-variance features","perf: enable parallel tree building with n_jobs=-1","docs: add Isolation Forest methodology documentation"]
+    },
+    {
+      "day": 13, "title": "XGBoost fraud classifier",
+      "focus": "XGBoost training, Optuna hyperparameter search, SHAP explainability",
+      "files_to_create": ["src/models/xgboost_trainer.py","src/models/hyperparameter_tuner.py","src/models/explainability.py","notebooks/02_xgboost_training.ipynb","tests/unit/test_xgboost_trainer.py"],
+      "commit_tasks": ["feat: implement XGBoostFraudClassifier with MLflow integration","feat: add Optuna hyperparameter search with 50 trials","feat: implement SHAP explainer for fraud decision explanations","feat: add class weight balancing for imbalanced fraud data","feat: log SHAP summary plots as MLflow artifacts","feat: implement threshold optimisation for precision-recall tradeoff","feat: add business metric: fraud caught rate at 0.1% false positive rate","feat: implement k-fold cross-validation with stratification","feat: add model card generation as MLflow artifact","test: add XGBoost trainer test verifying AUC > 0.90 on test set"],
+      "refactor_fix_commits": ["fix: class imbalance causing model to ignore fraud minority","refactor: extract evaluation metrics to shared module","fix: SHAP values failing on sparse feature matrix","perf: enable GPU training with tree_method=hist","docs: add XGBoost hyperparameter search space documentation"]
+    },
+    {
+      "day": 14, "title": "Ensemble model: Isolation Forest + XGBoost",
+      "focus": "Score fusion, ensemble weighting, combined fraud scoring",
+      "files_to_create": ["src/models/ensemble.py","src/models/score_fusion.py","src/models/calibrator.py","notebooks/03_ensemble_analysis.ipynb","tests/unit/test_ensemble.py"],
+      "commit_tasks": ["feat: implement FraudEnsemble combining IF and XGBoost scores","feat: add weighted score fusion with configurable weights","feat: implement probability calibration using Platt scaling","feat: add ensemble confidence score computation","feat: implement dynamic weight adjustment based on recent performance","feat: add ensemble explanation combining both model contributions","feat: implement ensemble A/B comparison framework","feat: add ensemble score threshold grid search","test: add ensemble tests verifying combined AUC > individual models"],
+      "refactor_fix_commits": ["fix: calibration failing on perfectly separated scores","refactor: decouple score fusion from ensemble class","fix: ensemble weights not summing to 1.0","perf: parallelise IF and XGBoost inference","docs: add ensemble methodology to docs/models.md"]
+    },
+    {
+      "day": 15, "title": "FastAPI sub-100ms inference endpoint",
+      "focus": "FastAPI serving, async inference, response caching, latency optimisation",
+      "files_to_create": ["src/serving/api.py","src/serving/prediction_service.py","src/serving/request_models.py","src/serving/response_models.py","tests/unit/test_serving_api.py"],
+      "commit_tasks": ["feat: scaffold FastAPI app with lifespan model loading","feat: add POST /score endpoint for real-time fraud scoring","feat: add POST /score/batch for batch transaction scoring","feat: implement model loading from MLflow Production stage","feat: add Redis response cache with 1-second TTL","feat: implement Prometheus latency histogram middleware","feat: add request ID tracing header","feat: implement async inference with thread pool executor","feat: add P99 latency target: 100ms SLO","test: add pytest-asyncio tests verifying P99 < 100ms"],
+      "refactor_fix_commits": ["perf: precompute feature normalisation on model load","fix: model reload causing 200ms spike in P99","refactor: separate prediction logic from route handlers","fix: cache key collision on similar transactions","docs: generate OpenAPI spec and add to docs/"]
+    },
+    {
+      "day": 16, "title": "Decision engine: block, flag, allow",
+      "focus": "Three-tier decision logic, risk thresholds, step-up authentication",
+      "files_to_create": ["src/decision/decision_engine.py","src/decision/threshold_manager.py","src/decision/step_up_auth.py","configs/decision_config.yaml","tests/unit/test_decision_engine.py"],
+      "commit_tasks": ["feat: implement DecisionEngine with three-tier output","feat: add BLOCK decision: fraud score > 0.85","feat: add FLAG decision: fraud score 0.5-0.85","feat: add ALLOW decision: fraud score < 0.5","feat: implement step-up authentication trigger for FLAG tier","feat: add dynamic threshold adjustment based on fraud rate","feat: implement decision explanation with top contributing features","feat: add decision audit log to PostgreSQL","feat: implement override capability for manual analyst decisions","test: add decision engine tests for all threshold boundaries"],
+      "refactor_fix_commits": ["fix: threshold boundary overlap causing inconsistent decisions","refactor: extract threshold config to YAML","fix: step-up auth not triggering for high-value FLAG transactions","perf: cache threshold values in memory","docs: add decision logic flowchart to docs/decision.md"]
+    },
+    {
+      "day": 17, "title": "Prediction logging & feedback loop",
+      "focus": "Structured prediction logs, confirmed fraud labels, feedback ingestion",
+      "files_to_create": ["src/serving/prediction_logger.py","src/serving/feedback_ingester.py","src/monitoring/prediction_store.py","configs/logging_config.yaml","tests/unit/test_prediction_logger.py"],
+      "commit_tasks": ["feat: implement structured prediction logger to PostgreSQL","feat: log transaction_id, score, decision, features, timestamp","feat: add feedback ingestion API for confirmed fraud labels","feat: implement prediction-to-outcome join for model evaluation","feat: add rolling precision/recall from feedback loop","feat: implement prediction log archival to S3 after 30 days","feat: add data export endpoint for retraining dataset assembly","feat: implement feedback deduplication","test: add prediction logger completeness and integrity tests"],
+      "refactor_fix_commits": ["fix: prediction_id collision on concurrent requests","refactor: use asyncpg for async PostgreSQL logging","fix: feedback ingester failing on duplicate submissions","perf: batch prediction log writes every 100ms","docs: add data lineage diagram to docs/architecture.md"]
+    },
+    {
+      "day": 18, "title": "Evidently drift detection",
+      "focus": "Feature drift, prediction drift, model performance monitoring",
+      "files_to_create": ["src/monitoring/drift_detector.py","src/monitoring/reference_builder.py","src/monitoring/performance_monitor.py","configs/drift_config.yaml","tests/unit/test_drift_detector.py"],
+      "commit_tasks": ["feat: implement Evidently DataDriftPreset for transaction features","feat: add reference dataset builder from training window","feat: implement scheduled drift report runner every 6 hours","feat: add prediction drift monitoring with PSI","feat: implement rolling AUC monitor from feedback labels","feat: add drift severity classification: none/warning/critical","feat: save drift reports as HTML to S3","feat: implement drift metric emission to Prometheus","test: add drift detection test with synthetic feature shift"],
+      "refactor_fix_commits": ["fix: Evidently failing on zero-variance reference features","refactor: parameterise drift thresholds in config","fix: reference dataset staleness check inverted","perf: run drift reports in parallel per feature group","docs: add drift detection methodology to docs/drift.md"]
+    },
+    {
+      "day": 19, "title": "Fraud analyst dashboard & case management",
+      "focus": "Case queue, analyst review UI, feedback submission, case prioritisation",
+      "files_to_create": ["src/decision/case_manager.py","src/decision/case_queue.py","src/serving/analyst_api.py","configs/case_config.yaml","tests/unit/test_case_manager.py"],
+      "commit_tasks": ["feat: implement CaseManager for flagged transaction management","feat: add case priority scoring based on amount and risk score","feat: implement case assignment to fraud analysts","feat: add case status tracking: open/under_review/resolved","feat: implement analyst decision API: confirm_fraud/false_positive","feat: add case SLA monitoring (resolve within 4 hours)","feat: implement case statistics dashboard endpoint","feat: add bulk case resolution for pattern-matched fraud","test: add case manager tests for all status transitions"],
+      "refactor_fix_commits": ["fix: case priority not updating when risk score changes","refactor: separate case routing from case management","fix: analyst assignment not load-balancing correctly","perf: cache open case counts in Redis","docs: add analyst workflow guide to docs/analyst.md"]
+    },
+    {
+      "day": 20, "title": "Slack & PagerDuty alerting",
+      "focus": "Fraud spike alerts, drift alerts, on-call routing, runbooks",
+      "files_to_create": ["src/monitoring/alert_dispatcher.py","src/monitoring/alert_templates.py","configs/alerting_config.yaml","docs/runbooks/fraud_spike_response.md","tests/unit/test_alert_dispatcher.py"],
+      "commit_tasks": ["feat: implement AlertDispatcher with Slack webhook","feat: add fraud rate spike alert (>2x baseline triggers alert)","feat: add drift alert with Evidently report link","feat: implement PagerDuty routing for critical fraud spikes","feat: add alert deduplication with 15-minute cooldown","feat: implement daily fraud summary digest to Slack","feat: add alert acknowledgment tracking","feat: implement escalation for unacknowledged critical alerts","docs: add fraud spike response runbook","test: add mock Slack webhook tests for all alert types"],
+      "refactor_fix_commits": ["fix: Slack message truncated for long merchant names","refactor: move alert templates to Jinja2","fix: PagerDuty dedup_key not unique","docs: add on-call setup guide","chore: add maintenance window suppression"]
+    },
+    {
+      "day": 21, "title": "Grafana fraud monitoring dashboards",
+      "focus": "Real-time fraud dashboards, heatmaps, geographic fraud maps",
+      "files_to_create": ["infra/grafana/dashboards/fraud_realtime.json","infra/grafana/dashboards/model_drift.json","infra/grafana/dashboards/analyst_performance.json","infra/grafana/provisioning/dashboards.yaml","scripts/grafana_import.sh"],
+      "commit_tasks": ["feat: add Grafana real-time fraud rate panel","feat: add transaction volume vs fraud rate dual-axis panel","feat: implement fraud by merchant category heatmap","feat: add model score distribution panel","feat: implement analyst case resolution time panel","feat: add geographic fraud concentration panel","feat: implement drift score trend panel","infra: add dashboard provisioning config","feat: add time-range variable to all dashboards"],
+      "refactor_fix_commits": ["fix: Grafana panel queries using wrong label selector","refactor: extract repeated panel JSON to template","fix: dashboard refresh not working","style: consistent colour scheme across dashboards","chore: version-control dashboard JSON with jq"]
+    },
+    {
+      "day": 22, "title": "Integration tests — full pipeline",
+      "focus": "End-to-end pipeline tests, fraud detection accuracy validation",
+      "files_to_create": ["tests/integration/test_full_pipeline.py","tests/integration/test_scoring_pipeline.py","tests/integration/fraud_simulator.py","tests/conftest.py","scripts/run_integration_tests.sh"],
+      "commit_tasks": ["test: add end-to-end fraud detection integration test","test: verify BLOCK decision on known fraud pattern","test: verify ALLOW decision on legitimate transaction","test: verify FLAG decision triggers step-up auth","test: add chaos test: kill scoring service mid-stream","test: verify DLQ routing on malformed transaction","feat: add fraud pattern simulator for integration testing","ci: add integration test step to CI pipeline"],
+      "refactor_fix_commits": ["fix: integration test not cleaning up Redis state","refactor: extract test fixtures to conftest.py","fix: fraud simulator generating unrealistic amounts","ci: run integration tests only on main branch","docs: add integration test guide"]
+    },
+    {
+      "day": 23, "title": "Airflow retraining DAG",
+      "focus": "Airflow setup, drift-triggered retraining DAG, dataset assembly",
+      "files_to_create": ["infra/airflow/docker-compose.airflow.yml","src/retraining/__init__.py","src/retraining/dags/fraud_model_retraining.py","src/retraining/dataset_assembler.py","configs/airflow_config.yaml"],
+      "commit_tasks": ["infra: add Airflow with CeleryExecutor docker-compose","feat: scaffold fraud_model_retraining DAG","feat: add DriftSensor polling Prometheus drift metrics","feat: implement dataset_assembly task","feat: add feature_engineering task","feat: add model_training task for both IF and XGBoost","feat: add ensemble_update task","feat: add DAG-level SLA and retry configuration","ci: add Airflow DAG import validation to CI"],
+      "refactor_fix_commits": ["fix: Airflow requires FERNET_KEY on startup","refactor: move DAG defaults to shared module","fix: Celery worker not picking up DAG changes","chore: add airflow db migrate to startup script","docs: add Airflow setup guide"]
+    },
+    {
+      "day": 24, "title": "Model validation & champion/challenger",
+      "focus": "Statistical validation gates, champion/challenger comparison, auto-promotion",
+      "files_to_create": ["src/retraining/model_validator.py","src/retraining/champion_challenger.py","src/retraining/model_promoter.py","tests/unit/test_model_validator.py","configs/validation_config.yaml"],
+      "commit_tasks": ["feat: implement model validator with AUC and precision gates","feat: add DeLong test for AUC comparison significance","feat: implement champion/challenger on holdout set","feat: add business metric validation: fraud caught at 0.1% FPR","feat: implement fairness evaluation across merchant categories","feat: add automated MLflow stage promotion on validation pass","feat: implement Staging to Production with approval gate","feat: add validation failure notification with report","test: add validator tests for promotion blocking on low AUC"],
+      "refactor_fix_commits": ["fix: DeLong test using wrong variance formula","refactor: decouple validation from MLflow registration","fix: fairness evaluation failing on small subgroups","docs: add model governance policy","chore: add validation report Jinja2 template"]
+    },
+    {
+      "day": 25, "title": "Canary deployment & traffic shifting",
+      "focus": "Canary deployment, traffic ramping, automatic rollback on high fraud rate",
+      "files_to_create": ["src/serving/canary_manager.py","src/serving/traffic_controller.py","configs/canary_config.yaml","tests/integration/test_canary_deployment.py","docs/runbooks/canary_deployment.md"],
+      "commit_tasks": ["feat: implement canary deployment manager for fraud models","feat: add traffic ramp: 1% → 5% → 20% → 50% → 100%","feat: implement canary health check on fraud rate","feat: add automatic rollback on fraud rate regression > 10%","feat: implement latency P99 guard on canary traffic","feat: add canary deployment audit log","feat: implement full cutover after successful soak period","feat: add canary status endpoint to API","test: add integration test for canary deployment flow"],
+      "refactor_fix_commits": ["fix: traffic split not atomic causing brief 100% canary","refactor: extract traffic controller from canary manager","fix: rollback not updating model pointer atomically","perf: reduce canary health check interval to 10s","docs: add canary deployment runbook"]
+    },
+    {
+      "day": 26, "title": "Load testing & performance benchmarking",
+      "focus": "Locust load tests, sub-100ms P99 validation, throughput benchmarking",
+      "files_to_create": ["tests/load/locustfile.py","tests/load/scenarios/scoring_load.py","tests/load/scenarios/batch_scoring_load.py","docs/performance_report.md","scripts/run_load_test.sh"],
+      "commit_tasks": ["test: add Locust load test for /score endpoint","test: add batch scoring scenario (1000 transactions)","test: add ramp test from 10 to 1000 concurrent users","feat: add async transaction processing pool","perf: add model inference result cache reducing P50 by 45%","perf: tune uvicorn worker count for throughput","perf: add Kafka producer batch size tuning","docs: add performance benchmark results"],
+      "refactor_fix_commits": ["fix: memory leak in feature store under sustained load","perf: profile and fix N+1 Redis queries in feature lookup","refactor: switch sync DB calls to async in hot path","fix: Kafka producer buffer full under burst load","docs: add capacity planning guide"]
+    },
+    {
+      "day": 27, "title": "Security hardening & PCI DSS considerations",
+      "focus": "Card data encryption, audit logging, access control, PCI DSS checklist",
+      "files_to_create": ["src/security/__init__.py","src/security/encryption.py","src/security/audit_logger.py","src/security/access_control.py","docs/pci_dss_compliance.md"],
+      "commit_tasks": ["feat: implement AES-256 encryption for stored card data","feat: add comprehensive audit logger for all scoring events","feat: implement role-based access control","feat: add card PAN masking in all logs and responses","feat: implement secure key rotation for encryption","feat: add API rate limiting per client","feat: implement JWT authentication with short expiry","docs: add PCI DSS compliance checklist","test: add security tests for card data masking"],
+      "refactor_fix_commits": ["fix: audit log missing client_id on anonymous calls","refactor: centralise PAN masking logic","fix: rate limiter not applying to batch endpoint","docs: add security architecture document","chore: add SAST scan results to CI"]
+    },
+    {
+      "day": 28, "title": "Comprehensive test suite",
+      "focus": "Unit test coverage > 80%, property tests, mutation testing",
+      "files_to_create": ["tests/unit/test_velocity_features.py","tests/unit/test_decision_engine.py","tests/unit/test_ensemble.py","tests/unit/test_drift_detector.py","scripts/mutation_test.sh"],
+      "commit_tasks": ["test: add unit tests for all velocity feature computations","test: add property-based tests for transaction schema","test: add parametrised tests for all decision thresholds","test: add ensemble tests for all score combinations","test: add drift detector tests with synthetic feature shift","test: run mutmut mutation testing, fix surviving mutants","ci: enforce 80% coverage threshold","ci: add coverage report to Codecov"],
+      "refactor_fix_commits": ["fix: 10 failing tests from schema field rename","refactor: consolidate fixtures in conftest.py","fix: flaky test using time.sleep, switch to freezegun","test: add snapshot tests for API response schemas","docs: document test strategy"]
+    },
+    {
+      "day": 29, "title": "Kubernetes deployment manifests",
+      "focus": "K8s deployments, HPA autoscaling, PodDisruptionBudget, network policies",
+      "files_to_create": ["infra/k8s/namespace.yaml","infra/k8s/scoring-deployment.yaml","infra/k8s/feature-deployment.yaml","infra/k8s/hpa.yaml","infra/k8s/network-policy.yaml"],
+      "commit_tasks": ["infra: add Kubernetes namespace with resource quotas","infra: add scoring service deployment with 3 replicas","infra: add feature engineering service deployment","infra: add HPA scaling on CPU and custom fraud rate metric","infra: add PodDisruptionBudget for zero-downtime deploys","infra: add Network Policies for service isolation","infra: add ConfigMap for all environment configuration","infra: add Ingress with TLS and rate limiting","infra: add PVC for MLflow artifact storage"],
+      "refactor_fix_commits": ["fix: HPA min replicas too low for production load","refactor: extract common K8s labels to kustomize base","fix: Network Policy too restrictive blocking health checks","docs: add Kubernetes deployment guide","chore: add kubectl dry-run to CI pipeline"]
+    },
+    {
+      "day": 30, "title": "Final polish, README & project completion",
+      "focus": "Complete README, architecture diagrams, changelog, v1.0.0 release",
+      "files_to_create": ["README.md","docs/architecture.md","docs/deployment_guide.md","CHANGELOG.md","SECURITY.md"],
+      "commit_tasks": ["docs: complete README with architecture diagram and quick start","docs: add comprehensive system architecture document","docs: add production deployment guide","docs: add CHANGELOG for v1.0.0","security: add SECURITY.md with vulnerability reporting","chore: tag v1.0.0 release","ci: add end-to-end smoke test to release pipeline","docs: add fraud detection methodology to docs/","chore: final dependency audit and update","chore: archive development notebooks"],
+      "refactor_fix_commits": ["docs: fix broken links in README","fix: env variable names inconsistent across services","refactor: remove all TODO comments","style: enforce consistent logging format","chore: update all Docker base images to latest stable"]
+    }
+  ]
+}

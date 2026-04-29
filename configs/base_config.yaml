@@ -1,0 +1,32 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topics:
+    transactions: "fraud.transactions.raw"
+    scored:       "fraud.transactions.scored"
+    decisions:    "fraud.decisions"
+    dlq:          "fraud.transactions.dlq"
+  consumer_group: "fraud-detection-consumers"
+
+redis:
+  host: "localhost"
+  port: 6379
+  feature_ttl_seconds: 86400
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "fraud-detection"
+  model_name: "fraud-scorer"
+
+serving:
+  host: "0.0.0.0"
+  port: 8000
+  p99_target_ms: 100
+
+decision:
+  block_threshold: 0.85
+  flag_threshold:  0.50
+
+drift:
+  check_interval_seconds: 21600
+  data_drift_threshold: 0.15
+  fraud_rate_spike_multiplier: 2.0
