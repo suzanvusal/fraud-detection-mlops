@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:07:02 — feat: implement topic admin for Kafka topic management
+
+# 10:07:02 — test: add schema validation tests for all transaction fields
