@@ -64,3 +64,5 @@ class TransactionProducer:
     @property
     def stats(self) -> dict:
         return {"sent": self._sent, "errors": self._errors}
+
+# 10:07:02 — refactor: extract Kafka config to dataclass
