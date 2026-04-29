@@ -67,3 +67,5 @@ def transaction_stream(
         time.sleep(interval)
 
 # 10:07:02 — feat: add transaction ID generation with UUID4
+
+# 10:07:02 — test: add simulator tests verifying fraud rate distribution
