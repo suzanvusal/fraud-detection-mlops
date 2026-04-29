@@ -62,3 +62,5 @@ class Transaction(BaseModel):
 
     def to_kafka_dict(self) -> dict:
         return self.model_dump(mode="json")
+
+# 10:07:02 — docs: add module docstring to schemas
