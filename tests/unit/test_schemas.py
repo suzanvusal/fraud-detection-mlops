@@ -48,3 +48,5 @@ def test_not_high_value():
     assert not t.is_high_value
 
 # 10:07:02 — feat: add fraud pattern injection in simulator (5% fraud rat
+
+# 10:07:02 — fix: simulator not generating international transactions
