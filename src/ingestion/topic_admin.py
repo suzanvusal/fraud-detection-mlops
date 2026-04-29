@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:07:02 — test: add schema validation tests for all transaction fields
 
 # 10:07:02 — docs: update example in docstring of topic_admin
+
+# 10:07:02 — fix: correct off-by-one error in topic_admin
