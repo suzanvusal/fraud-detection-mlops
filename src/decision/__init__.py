@@ -1,1 +1,1 @@
-"""Decision engine: block/flag/allow, rule engine, case management."""
+"""Decision engine: block/flag/allow, rule engine."""
