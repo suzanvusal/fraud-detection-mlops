@@ -1,1 +1,3 @@
 # infra/docker/Dockerfile.features — Day 3: Docker infrastructure & monitoring stack
+
+# 10:08:22 — infra: add health check scripts for all containers
