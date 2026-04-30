@@ -66,3 +66,5 @@ class Transaction(BaseModel):
 # 10:07:02 — docs: add module docstring to schemas
 
 # 10:08:22 — chore: add logging statement to schemas
+
+# 10:08:22 — docs: update example in docstring of schemas
