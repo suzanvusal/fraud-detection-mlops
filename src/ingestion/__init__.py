@@ -7,3 +7,5 @@
 # 10:07:02 — docs: add module docstring to __init__
 
 # 10:07:03 — docs: update example in docstring of __init__
+
+# 10:08:22 — perf: add caching to __init__
