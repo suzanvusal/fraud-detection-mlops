@@ -1,8 +1,3 @@
-global:
-  scrape_interval: 15s
-
-scrape_configs:
-  - job_name: fraud-scoring-api
-    static_configs:
-      - targets: ["host.docker.internal:8000"]
-    metrics_path: /metrics
+# infra/prometheus/prometheus.yml
+# Day 3: Docker infrastructure & monitoring stack
+# Generated: 2026-04-30T10:08:22.341577+00:00
