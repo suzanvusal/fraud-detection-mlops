@@ -7,3 +7,5 @@
 # 10:08:22 — feat: add docker-compose.monitoring.yml for observability st
 
 # 10:08:22 — fix: Grafana volume mount permissions
+
+# 10:08:22 — chore: add docker-compose.override.yml for local dev
