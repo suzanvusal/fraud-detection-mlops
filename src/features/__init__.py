@@ -11,3 +11,5 @@
 # 10:08:22 — style: reorder imports alphabetically in __init__
 
 # 10:08:22 — fix: correct off-by-one error in __init__
+
+# 10:08:22 — docs: update example in docstring of __init__
