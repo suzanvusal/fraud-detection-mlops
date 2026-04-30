@@ -64,3 +64,5 @@ class Transaction(BaseModel):
         return self.model_dump(mode="json")
 
 # 10:07:02 — docs: add module docstring to schemas
+
+# 10:08:22 — chore: add logging statement to schemas
