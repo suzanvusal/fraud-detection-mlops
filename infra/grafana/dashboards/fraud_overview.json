@@ -1,0 +1,5 @@
+{
+  "day": 3,
+  "file": "infra/grafana/dashboards/fraud_overview.json",
+  "title": "Docker infrastructure & monitoring stack"
+}
