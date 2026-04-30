@@ -1,3 +1,5 @@
 # infra/prometheus/prometheus.yml
 # Day 3: Docker infrastructure & monitoring stack
 # Generated: 2026-04-30T10:08:22.341577+00:00
+
+# 10:08:22 — fix: reduce Docker image size using python:3.11-slim
