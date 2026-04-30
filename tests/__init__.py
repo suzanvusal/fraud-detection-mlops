@@ -6,3 +6,5 @@
 # 10:08:22 — fix: handle None input edge case in __init__
 
 # 10:08:22 — style: run black formatter on __init__
+
+# 10:08:22 — docs: fix typo in inline comment in __init__
