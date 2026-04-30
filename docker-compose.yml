@@ -76,3 +76,5 @@ volumes:
   postgres_data:
   mlflow_artifacts:
   grafana_data:
+
+# 10:08:22 — refactor: consolidate env vars into .env.example
