@@ -5,3 +5,5 @@
 }
 
 # 10:08:22 — feat: add docker-compose.monitoring.yml for observability st
+
+# 10:08:22 — fix: Grafana volume mount permissions
