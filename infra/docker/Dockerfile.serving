@@ -1,3 +1,5 @@
 # infra/docker/Dockerfile.serving — Day 3: Docker infrastructure & monitoring stack
 
 # 10:08:22 — infra: configure Docker named volumes for data persistence
+
+# 10:08:22 — infra: add resource limits to all Docker services
