@@ -5,3 +5,5 @@
 # 09:47:27 — ci: add Trivy security scan for Docker images
 
 # 09:47:27 — ci: add Bandit SAST scan for Python security
+
+# 09:47:27 — ci: add pip-audit dependency vulnerability check
