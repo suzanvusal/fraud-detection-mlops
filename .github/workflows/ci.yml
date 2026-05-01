@@ -3,3 +3,5 @@
 # Generated: 2026-05-01T09:47:27.439502+00:00
 
 # 09:47:27 — ci: add PR labeler workflow
+
+# 09:47:27 — ci: cache pip dependencies for faster CI runs
