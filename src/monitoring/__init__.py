@@ -5,3 +5,5 @@
 # 00:32:54 — docs: add CONTRIBUTING.md with branching strategy
 
 # 09:47:27 — docs: add module docstring to __init__
+
+# 09:47:27 — chore: add logging statement to __init__
