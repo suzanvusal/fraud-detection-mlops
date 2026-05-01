@@ -7,3 +7,5 @@
 # 09:47:27 — ci: add Bandit SAST scan for Python security
 
 # 09:47:27 — ci: add pip-audit dependency vulnerability check
+
+# 09:47:27 — fix: set PYTHONPATH correctly in CI
