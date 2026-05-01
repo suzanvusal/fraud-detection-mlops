@@ -7,3 +7,5 @@
 # 09:47:27 — fix: correct off-by-one error in __init__
 
 # 09:47:27 — fix: correct off-by-one error in __init__
+
+# 09:47:27 — fix: add missing type hint in __init__
