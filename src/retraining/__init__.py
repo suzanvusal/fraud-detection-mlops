@@ -5,3 +5,5 @@
 # 10:08:22 — docs: fix typo in inline comment in __init__
 
 # 09:47:27 — test: add assertion for return type in __init__
+
+# 09:47:27 — chore: add logging statement to __init__
