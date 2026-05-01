@@ -7,3 +7,5 @@
 # 09:47:27 — test: add assertion for return type in __init__
 
 # 09:47:27 — chore: add logging statement to __init__
+
+# 09:47:27 — fix: add missing type hint in __init__
