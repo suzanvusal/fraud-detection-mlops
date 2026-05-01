@@ -1,3 +1,5 @@
 # .pre-commit-config.yaml
 # Day 4: CI/CD pipeline
 # Generated: 2026-05-01T09:47:27.457427+00:00
+
+# 09:47:27 — ci: add Trivy security scan for Docker images
