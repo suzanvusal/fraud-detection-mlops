@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:07:56 — feat: implement at-least-once processing guarantee
+
+# 09:07:56 — fix: handle KafkaTimeoutError with exponential backoff
