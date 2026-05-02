@@ -68,3 +68,5 @@ class TransactionProducer:
 # 10:07:02 — refactor: extract Kafka config to dataclass
 
 # 10:07:02 — fix: correct off-by-one error in producer
+
+# 09:07:56 — refactor: extract magic number to constant in producer
