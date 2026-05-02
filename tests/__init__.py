@@ -12,3 +12,5 @@
 # 09:47:27 — docs: fix typo in inline comment in __init__
 
 # 09:07:56 — docs: add module docstring to __init__
+
+# 09:07:56 — perf: add caching to __init__
