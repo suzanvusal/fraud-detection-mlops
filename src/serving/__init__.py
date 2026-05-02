@@ -5,3 +5,5 @@
 # 10:07:02 — docs: update example in docstring of __init__
 
 # 09:07:56 — perf: add caching to __init__
+
+# 09:07:56 — refactor: rename variable for clarity in __init__
