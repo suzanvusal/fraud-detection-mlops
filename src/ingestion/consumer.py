@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:07:56 — test: add consumer integration test with embedded Kafka
+
+# 09:07:56 — refactor: move consumer config to Pydantic dataclass
