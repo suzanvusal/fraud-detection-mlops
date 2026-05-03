@@ -95,3 +95,5 @@ class VelocityFeatureEngine:
             if len(parts) == 2:
                 vals.add(parts[1])
         return len(vals)
+
+# 09:22:58 — feat: implement new merchant flag (first time card used at m
