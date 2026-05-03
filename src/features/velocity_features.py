@@ -97,3 +97,5 @@ class VelocityFeatureEngine:
         return len(vals)
 
 # 09:22:58 — feat: implement new merchant flag (first time card used at m
+
+# 09:22:58 — refactor: extract window sizes to configs/feature_config.yam
