@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:22:58 — feat: implement amount deviation from historical average
 
 # 09:22:58 — feat: add consecutive decline counter feature
+
+# 09:22:58 — fix: velocity counter not resetting after window expiry
