@@ -11,3 +11,5 @@
 # 09:47:27 — fix: add missing type hint in __init__
 
 # 09:07:56 — perf: add caching to __init__
+
+# 09:22:58 — docs: add module docstring to __init__
