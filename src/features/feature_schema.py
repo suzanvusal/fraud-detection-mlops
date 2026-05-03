@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:22:58 — feat: add night-time transaction ratio feature
 
 # 09:22:58 — feat: implement amount deviation from historical average
+
+# 09:22:58 — feat: add consecutive decline counter feature
