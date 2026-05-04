@@ -7,3 +7,5 @@
 # 09:07:56 — perf: add caching to __init__
 
 # 09:07:56 — refactor: rename variable for clarity in __init__
+
+# 10:14:55 — fix: correct off-by-one error in __init__
