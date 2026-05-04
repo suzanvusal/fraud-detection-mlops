@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:07:56 — fix: handle KafkaTimeoutError with exponential backoff
 
 # 09:22:58 — fix: handle None input edge case in dlq_handler
+
+# 10:14:55 — fix: handle None input edge case in dlq_handler
