@@ -5,3 +5,5 @@
 # 10:14:55 — feat: implement IP geolocation mismatch detection
 
 # 10:14:55 — refactor: extract MCC risk scores to YAML config
+
+# 10:14:55 — fix: impossible travel not handling same-merchant transactio
