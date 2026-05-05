@@ -11,3 +11,5 @@
 # 09:47:27 — fix: add missing type hint in __init__
 
 # 09:22:58 — fix: remove unused import in __init__
+
+# 10:04:14 — chore: add logging statement to __init__
