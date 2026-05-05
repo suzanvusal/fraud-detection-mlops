@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:14:55 — refactor: extract magic number to constant in validator
 
 # 10:14:55 — docs: update example in docstring of validator
+
+# 10:04:14 — perf: add caching to validator
