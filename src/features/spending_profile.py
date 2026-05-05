@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:04:14 — feat: implement feature store health monitoring
+
+# 10:04:14 — test: add feature store tests with Redis mock
