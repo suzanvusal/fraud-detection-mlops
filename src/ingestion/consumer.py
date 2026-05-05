@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:07:56 — refactor: move consumer config to Pydantic dataclass
 
 # 09:07:56 — fix: offset commit not happening on empty poll
+
+# 10:04:14 — style: reorder imports alphabetically in consumer
