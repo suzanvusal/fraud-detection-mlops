@@ -3,3 +3,5 @@
 # Generated: 2026-05-05T10:04:14.189642+00:00
 
 # 10:04:14 — feat: add spending profile builder from transaction history
+
+# 10:04:14 — fix: feature TTL not extending on card activity
