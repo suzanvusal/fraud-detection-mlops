@@ -15,3 +15,5 @@
 # 09:22:58 — chore: day 6 maintenance sweep
 
 # 10:14:55 — test: add assertion for return type in __init__
+
+# 10:04:14 — fix: correct off-by-one error in __init__
