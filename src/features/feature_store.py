@@ -1,3 +1,9 @@
-# perf: pipeline Redis calls and add L1 cache
+"""
+src/features/feature_store.py
+Day 8: Behavioural features & feature store
+Focus: Cardholder behaviour patterns, spending profile, Redis feature store
+"""
+from __future__ import annotations
+import logging
 
-# 09:22:58 — style: reorder imports alphabetically in feature_store
+logger = logging.getLogger(__name__)
