@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:20:40 — fix: hot-reload causing brief rule gap
+
+# 10:20:40 — docs: fix typo in inline comment in soft_rules
