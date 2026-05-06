@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — feat: add rule evaluation audit log
 
 # 10:20:40 — fix: rule priority not respected in edge cases
+
+# 10:20:40 — chore: add logging statement to hard_rules
