@@ -3,3 +3,5 @@
 # 09:22:58 — docs: update example in docstring of api
 
 # 10:04:14 — chore: add logging statement to api
+
+# 10:20:40 — docs: update example in docstring of api
