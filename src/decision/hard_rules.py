@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — feat: add soft rule: flag night transaction in foreign count
 
 # 10:20:40 — feat: add rule evaluation audit log
+
+# 10:20:40 — fix: rule priority not respected in edge cases
