@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:20:40 — feat: add soft rule: flag if new merchant + high amount
+
+# 10:20:40 — feat: add soft rule: flag night transaction in foreign count
