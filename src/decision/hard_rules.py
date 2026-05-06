@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 10:20:40 — feat: add soft rule: flag if new merchant + high amount
