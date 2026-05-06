@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 10:20:40 — fix: hot-reload causing brief rule gap
