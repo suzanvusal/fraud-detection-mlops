@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 09:47:27 — refactor: rename variable for clarity in topic_admin
 
 # 10:20:40 — perf: add caching to topic_admin
+
+# 10:20:40 — fix: add missing type hint in topic_admin
