@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/transaction_pipeline.json",
   "title": "Monitoring dashboards & Prometheus metrics"
 }
+
+# 10:25:43 — feat: implement Grafana model performance dashboard
