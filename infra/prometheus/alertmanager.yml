@@ -1,3 +1,5 @@
 # infra/prometheus/alertmanager.yml
 # Day 10: Monitoring dashboards & Prometheus metrics
 # Generated: 2026-05-07T10:25:43.008905+00:00
+
+# 10:25:43 — refactor: centralise metric registration
