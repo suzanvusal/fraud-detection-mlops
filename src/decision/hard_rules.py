@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — fix: rule priority not respected in edge cases
 
 # 10:20:40 — chore: add logging statement to hard_rules
+
+# 10:25:43 — docs: add module docstring to hard_rules
