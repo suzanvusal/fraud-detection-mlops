@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:14:55 — test: add assertion for return type in test_geo_features
 
 # 10:04:14 — refactor: extract magic number to constant in test_geo_featu
+
+# 10:25:43 — docs: update example in docstring of test_geo_features
