@@ -1,0 +1,5 @@
+{
+  "day": 10,
+  "file": "infra/grafana/dashboards/transaction_pipeline.json",
+  "title": "Monitoring dashboards & Prometheus metrics"
+}
