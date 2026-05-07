@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:25:43 — feat: add SLO rule: 99.9% decisions under 100ms
+
+# 10:25:43 — feat: add Prometheus alert for fraud rate spike
