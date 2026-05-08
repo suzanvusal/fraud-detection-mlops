@@ -9,3 +9,5 @@
 # 09:23:42 — test: add data pipeline tests for temporal split correctness
 
 # 09:23:42 — fix: temporal leakage in train/val split
+
+# 09:23:42 — refactor: separate feature computation from dataset assembly
