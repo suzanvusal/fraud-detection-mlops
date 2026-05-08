@@ -18,3 +18,5 @@
 # 09:07:56 — docs: fix typo in inline comment in __init__
 
 # 09:22:58 — fix: remove unused import in __init__
+
+# 09:23:43 — perf: add caching to __init__
