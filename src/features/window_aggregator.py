@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:22:58 — docs: update example in docstring of window_aggregator
+
+# 09:23:43 — refactor: extract magic number to constant in window_aggrega
