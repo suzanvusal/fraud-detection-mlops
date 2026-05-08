@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — chore: add logging statement to hard_rules
 
 # 10:25:43 — docs: add module docstring to hard_rules
+
+# 09:23:43 — docs: fix typo in inline comment in hard_rules
