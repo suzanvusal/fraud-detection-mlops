@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 09:23:42 — fix: SMOTE failing with very low fraud rate
