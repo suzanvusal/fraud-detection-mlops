@@ -7,3 +7,5 @@
 # 09:23:42 — feat: log dataset statistics to MLflow
 
 # 09:23:42 — test: add data pipeline tests for temporal split correctness
+
+# 09:23:42 — fix: temporal leakage in train/val split
