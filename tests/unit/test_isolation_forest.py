@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:20:44 — feat: implement online anomaly scoring for streaming data
 
 # 09:20:44 — feat: add model performance metrics: precision, recall, AUC
+
+# 09:20:44 — fix: contamination parameter too high causing false positive
