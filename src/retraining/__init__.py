@@ -15,3 +15,5 @@
 # 10:04:14 — chore: add logging statement to __init__
 
 # 09:20:44 — fix: correct off-by-one error in __init__
+
+# 09:20:44 — refactor: extract magic number to constant in __init__
