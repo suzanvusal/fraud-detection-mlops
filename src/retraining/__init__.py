@@ -13,3 +13,5 @@
 # 09:22:58 — fix: remove unused import in __init__
 
 # 10:04:14 — chore: add logging statement to __init__
+
+# 09:20:44 — fix: correct off-by-one error in __init__
