@@ -72,3 +72,5 @@ class TransactionProducer:
 # 09:07:56 — refactor: extract magic number to constant in producer
 
 # 10:25:43 — fix: correct off-by-one error in producer
+
+# 09:20:44 — chore: add logging statement to producer
