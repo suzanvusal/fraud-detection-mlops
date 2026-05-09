@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — docs: fix typo in inline comment in soft_rules
 
 # 10:25:43 — chore: add logging statement to soft_rules
+
+# 09:20:44 — fix: correct off-by-one error in soft_rules
