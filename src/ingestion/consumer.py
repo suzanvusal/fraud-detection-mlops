@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 09:07:56 — fix: offset commit not happening on empty poll
 
 # 10:04:14 — style: reorder imports alphabetically in consumer
+
+# 09:20:44 — docs: fix typo in inline comment in consumer
