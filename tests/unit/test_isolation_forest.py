@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:20:44 — feat: add model performance metrics: precision, recall, AUC
 
 # 09:20:44 — fix: contamination parameter too high causing false positive
+
+# 09:20:44 — docs: update example in docstring of test_isolation_forest
