@@ -71,3 +71,5 @@ def transaction_stream(
 # 10:07:02 — test: add simulator tests verifying fraud rate distribution
 
 # 10:07:02 — fix: handle edge case when transaction amount is exactly zer
+
+# 09:20:44 — refactor: rename variable for clarity in simulator
