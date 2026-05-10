@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:25:43 — fix: Grafana dashboard refresh interval
 
 # 09:23:43 — docs: update example in docstring of metrics
+
+# 09:39:27 — fix: handle None input edge case in metrics
