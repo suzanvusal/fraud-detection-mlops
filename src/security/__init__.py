@@ -5,3 +5,5 @@
 # 10:14:55 — style: run black formatter on __init__
 
 # 10:14:55 — refactor: extract magic number to constant in __init__
+
+# 09:39:27 — fix: remove unused import in __init__
