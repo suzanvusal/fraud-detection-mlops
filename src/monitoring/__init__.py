@@ -15,3 +15,5 @@
 # 10:20:40 — style: reorder imports alphabetically in __init__
 
 # 09:39:27 — style: run black formatter on __init__
+
+# 11:23:39 — perf: add caching to __init__
