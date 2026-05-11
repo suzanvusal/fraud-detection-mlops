@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 09:22:58 — fix: velocity counter not resetting after window expiry
 
 # 10:20:40 — style: reorder imports alphabetically in feature_schema
+
+# 11:23:39 — test: add assertion for return type in feature_schema
