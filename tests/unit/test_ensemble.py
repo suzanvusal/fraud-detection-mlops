@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — feat: implement ensemble A/B comparison framework
 
 # 11:23:39 — test: add ensemble tests verifying combined AUC > individual
+
+# 11:23:39 — fix: ensemble weights not summing to 1.0
