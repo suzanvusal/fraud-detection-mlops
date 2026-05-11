@@ -10,3 +10,5 @@ __version__ = "0.1.0"
 # 09:23:43 — fix: correct off-by-one error in __init__
 
 # 09:20:44 — perf: add caching to __init__
+
+# 11:23:39 — fix: remove unused import in __init__
