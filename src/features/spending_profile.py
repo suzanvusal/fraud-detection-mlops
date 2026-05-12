@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:04:14 — fix: spending profile not updating on first transaction
 
 # 09:39:27 — chore: add logging statement to spending_profile
+
+# 10:32:59 — style: run black formatter on spending_profile
