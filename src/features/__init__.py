@@ -15,3 +15,5 @@
 # 10:08:22 — docs: update example in docstring of __init__
 
 # 11:23:39 — docs: update example in docstring of __init__
+
+# 10:32:59 — test: add assertion for return type in __init__
