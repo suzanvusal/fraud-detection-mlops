@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:32:59 — feat: add request ID tracing header
+
+# 10:32:59 — feat: implement async inference with thread pool executor
