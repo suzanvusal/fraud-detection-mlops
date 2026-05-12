@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 10:32:59 — perf: precompute feature normalisation on model load
