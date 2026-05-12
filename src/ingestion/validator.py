@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:04:14 — perf: add caching to validator
 
 # 09:20:44 — fix: handle None input edge case in validator
+
+# 10:32:59 — fix: add missing type hint in validator
