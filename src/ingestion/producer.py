@@ -74,3 +74,5 @@ class TransactionProducer:
 # 10:25:43 — fix: correct off-by-one error in producer
 
 # 09:20:44 — chore: add logging statement to producer
+
+# 10:32:59 — fix: remove unused import in producer
