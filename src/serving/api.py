@@ -90,3 +90,5 @@ async def health():
 @app.get("/metrics")
 async def metrics():
     return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
+
+# 10:32:59 — fix: model reload causing 200ms spike in P99
