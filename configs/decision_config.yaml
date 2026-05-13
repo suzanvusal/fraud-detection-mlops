@@ -1,3 +1,5 @@
 # configs/decision_config.yaml
 # Day 16: Decision engine: block, flag, allow
 # Generated: 2026-05-13T10:29:10.637782+00:00
+
+# 10:29:10 — feat: add decision audit log to PostgreSQL
