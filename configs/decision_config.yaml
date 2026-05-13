@@ -5,3 +5,5 @@
 # 10:29:10 — feat: add decision audit log to PostgreSQL
 
 # 10:29:10 — feat: implement override capability for manual analyst decis
+
+# 10:29:10 — fix: threshold boundary overlap causing inconsistent decisio
