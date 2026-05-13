@@ -79,3 +79,5 @@ def transaction_stream(
 # 11:23:39 — chore: add logging statement to simulator
 
 # 10:32:59 — chore: add logging statement to simulator
+
+# 10:29:10 — fix: add missing type hint in simulator
