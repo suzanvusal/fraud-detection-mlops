@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:29:10 — feat: add dynamic threshold adjustment based on fraud rate
+
+# 10:29:10 — feat: implement decision explanation with top contributing f
