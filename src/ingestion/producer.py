@@ -76,3 +76,5 @@ class TransactionProducer:
 # 09:20:44 — chore: add logging statement to producer
 
 # 10:32:59 — fix: remove unused import in producer
+
+# 10:29:10 — docs: add module docstring to producer
