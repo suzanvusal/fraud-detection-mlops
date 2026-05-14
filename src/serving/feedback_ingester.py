@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 10:19:05 — refactor: use asyncpg for async PostgreSQL logging
