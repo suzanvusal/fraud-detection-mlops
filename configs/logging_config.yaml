@@ -3,3 +3,5 @@
 # Generated: 2026-05-14T10:19:05.673150+00:00
 
 # 10:19:05 — feat: implement feedback deduplication
+
+# 10:19:05 — perf: batch prediction log writes every 100ms
