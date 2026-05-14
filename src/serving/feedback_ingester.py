@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:19:05 — refactor: use asyncpg for async PostgreSQL logging
+
+# 10:19:05 — fix: feedback ingester failing on duplicate submissions
