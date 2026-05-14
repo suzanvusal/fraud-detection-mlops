@@ -94,3 +94,5 @@ async def metrics():
 # 10:32:59 — fix: model reload causing 200ms spike in P99
 
 # 10:29:10 — test: add assertion for return type in api
+
+# 10:19:05 — style: run black formatter on api
