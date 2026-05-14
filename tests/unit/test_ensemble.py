@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — test: add ensemble tests verifying combined AUC > individual
 
 # 11:23:39 — fix: ensemble weights not summing to 1.0
+
+# 10:19:05 — perf: add caching to test_ensemble
