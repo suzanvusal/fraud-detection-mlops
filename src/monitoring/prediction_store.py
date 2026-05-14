@@ -1,0 +1,9 @@
+"""
+src/monitoring/prediction_store.py
+Day 17: Prediction logging & feedback loop
+Focus: Structured prediction logs, confirmed fraud labels, feedback ingestion
+"""
+from __future__ import annotations
+import logging
+
+logger = logging.getLogger(__name__)
