@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — chore: day 9 maintenance sweep
 
 # 10:20:40 — docs: fix typo in inline comment in behaviour_features
+
+# 10:19:05 — fix: add missing type hint in behaviour_features
