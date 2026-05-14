@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:14:55 — refactor: rename variable for clarity in dlq_handler
 
 # 09:39:27 — refactor: extract magic number to constant in dlq_handler
+
+# 10:19:05 — docs: update example in docstring of dlq_handler
