@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 09:23:43 — docs: update example in docstring of metrics
 
 # 09:39:27 — fix: handle None input edge case in metrics
+
+# 10:25:15 — fix: add missing type hint in metrics
