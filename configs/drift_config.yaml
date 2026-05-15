@@ -5,3 +5,5 @@
 # 10:25:15 — refactor: parameterise drift thresholds in config
 
 # 10:25:15 — fix: reference dataset staleness check inverted
+
+# 10:25:15 — perf: run drift reports in parallel per feature group
