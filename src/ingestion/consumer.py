@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 09:20:44 — chore: day 12 maintenance sweep
 
 # 11:23:39 — refactor: rename variable for clarity in consumer
+
+# 10:25:15 — fix: handle None input edge case in consumer
