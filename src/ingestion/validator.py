@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 09:20:44 — fix: handle None input edge case in validator
 
 # 10:32:59 — fix: add missing type hint in validator
+
+# 10:25:15 — docs: add module docstring to validator
