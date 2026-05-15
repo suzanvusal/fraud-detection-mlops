@@ -54,3 +54,5 @@ class FraudDriftDetector:
             if m.get("metric") == "DatasetDriftMetric":
                 return m["result"].get("share_of_drifted_columns", 0.0)
         return 0.0
+
+# 10:25:14 — feat: add drift severity classification: none/warning/critic
