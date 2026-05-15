@@ -58,3 +58,5 @@ class FraudDriftDetector:
 # 10:25:14 — feat: add drift severity classification: none/warning/critic
 
 # 10:25:14 — feat: implement drift metric emission to Prometheus
+
+# 10:25:14 — fix: Evidently failing on zero-variance reference features
