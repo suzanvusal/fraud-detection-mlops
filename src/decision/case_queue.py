@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:41:52 — feat: implement case statistics dashboard endpoint
+
+# 09:41:52 — test: add case manager tests for all status transitions
