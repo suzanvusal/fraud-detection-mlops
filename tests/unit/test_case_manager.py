@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:41:52 — feat: add case SLA monitoring (resolve within 4 hours)
+
+# 09:41:52 — perf: cache open case counts in Redis
