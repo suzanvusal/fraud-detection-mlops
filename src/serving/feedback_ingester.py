@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:19:05 — fix: feedback ingester failing on duplicate submissions
 
 # 09:41:52 — refactor: extract magic number to constant in feedback_inges
+
+# 09:41:52 — fix: handle None input edge case in feedback_ingester
