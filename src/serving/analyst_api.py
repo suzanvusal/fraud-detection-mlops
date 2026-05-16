@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 09:41:52 — fix: case priority not updating when risk score changes
