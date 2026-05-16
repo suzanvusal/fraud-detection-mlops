@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:25:43 — fix: add missing type hint in geo_features
 
 # 09:23:43 — fix: remove unused import in geo_features
+
+# 09:41:52 — fix: handle None input edge case in geo_features
