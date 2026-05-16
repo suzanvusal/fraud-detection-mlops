@@ -16,3 +16,5 @@ __version__ = "0.1.0"
 # 10:32:59 — refactor: rename variable for clarity in __init__
 
 # 10:19:05 — fix: add missing type hint in __init__
+
+# 09:41:52 — refactor: rename variable for clarity in __init__
