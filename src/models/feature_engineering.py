@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:23:42 — fix: SMOTE failing with very low fraud rate
 
 # 10:25:15 — chore: day 18 maintenance sweep
+
+# 09:41:52 — test: add assertion for return type in feature_engineering
