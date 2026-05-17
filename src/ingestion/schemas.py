@@ -76,3 +76,5 @@ class Transaction(BaseModel):
 # 10:29:10 — fix: remove unused import in schemas
 
 # 10:25:15 — docs: add module docstring to schemas
+
+# 09:47:49 — docs: fix typo in inline comment in schemas
