@@ -78,3 +78,5 @@ class TransactionProducer:
 # 10:32:59 — fix: remove unused import in producer
 
 # 10:29:10 — docs: add module docstring to producer
+
+# 09:47:49 — docs: update example in docstring of producer
