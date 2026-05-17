@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — perf: add caching to test_geo_features
 
 # 10:19:05 — fix: add missing type hint in test_geo_features
+
+# 09:47:49 — fix: handle None input edge case in test_geo_features
