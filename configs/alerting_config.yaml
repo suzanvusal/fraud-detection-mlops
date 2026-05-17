@@ -3,3 +3,5 @@
 # Generated: 2026-05-17T09:47:49.714065+00:00
 
 # 09:47:49 — test: add mock Slack webhook tests for all alert types
+
+# 09:47:49 — fix: Slack message truncated for long merchant names
