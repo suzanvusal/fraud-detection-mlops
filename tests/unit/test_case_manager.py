@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:41:52 — perf: cache open case counts in Redis
 
 # 09:41:52 — chore: day 19 maintenance sweep
+
+# 11:45:25 — fix: handle None input edge case in test_case_manager
