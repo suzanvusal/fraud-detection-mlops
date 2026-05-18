@@ -7,3 +7,5 @@
 # 11:45:25 — feat: add geographic fraud concentration panel
 
 # 11:45:25 — refactor: extract repeated panel JSON to template
+
+# 11:45:25 — fix: dashboard refresh not working
