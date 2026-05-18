@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/analyst_performance.json",
   "title": "Grafana fraud monitoring dashboards"
 }
+
+# 11:45:25 — feat: add geographic fraud concentration panel
