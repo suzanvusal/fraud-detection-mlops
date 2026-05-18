@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — fix: ensemble weights not summing to 1.0
 
 # 10:19:05 — perf: add caching to test_ensemble
+
+# 11:45:25 — chore: day 21 maintenance sweep
