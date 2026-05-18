@@ -23,3 +23,5 @@
 # 10:25:15 — fix: handle None input edge case in __init__
 
 # 09:47:49 — test: add assertion for return type in __init__
+
+# 11:45:25 — style: run black formatter on __init__
