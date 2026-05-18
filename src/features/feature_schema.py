@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — refactor: rename variable for clarity in feature_schema
 
 # 10:29:10 — style: run black formatter on feature_schema
+
+# 11:45:25 — chore: add logging statement to feature_schema
