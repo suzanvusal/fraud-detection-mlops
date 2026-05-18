@@ -10,3 +10,5 @@
 # 10:04:14 — fix: handle None input edge case in __init__
 
 # 10:25:43 — fix: correct off-by-one error in __init__
+
+# 11:45:25 — fix: correct off-by-one error in __init__
