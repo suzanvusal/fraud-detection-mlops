@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/model_drift.json",
   "title": "Grafana fraud monitoring dashboards"
 }
+
+# 11:45:25 — feat: implement drift score trend panel
