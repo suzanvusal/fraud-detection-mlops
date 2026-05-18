@@ -1,0 +1,5 @@
+{
+  "day": 21,
+  "file": "infra/grafana/dashboards/model_drift.json",
+  "title": "Grafana fraud monitoring dashboards"
+}
