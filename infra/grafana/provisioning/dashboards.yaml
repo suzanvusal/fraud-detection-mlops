@@ -3,3 +3,5 @@
 # Generated: 2026-05-18T11:45:25.078734+00:00
 
 # 11:45:25 — fix: Grafana panel queries using wrong label selector
+
+# 11:45:25 — style: consistent colour scheme across dashboards
