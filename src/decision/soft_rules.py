@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:25:43 — chore: add logging statement to soft_rules
 
 # 09:20:44 — fix: correct off-by-one error in soft_rules
+
+# 11:45:25 — docs: add module docstring to soft_rules
