@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 11:19:37 — refactor: extract test fixtures to conftest.py
+
+# 11:19:37 — docs: add integration test guide
