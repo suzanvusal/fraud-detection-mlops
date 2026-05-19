@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 11:19:37 — refactor: extract test fixtures to conftest.py
