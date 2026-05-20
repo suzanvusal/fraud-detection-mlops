@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 09:23:43 — fix: remove unused import in geo_features
 
 # 09:41:52 — fix: handle None input edge case in geo_features
+
+# 10:51:58 — docs: add module docstring to geo_features
