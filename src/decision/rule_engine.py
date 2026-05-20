@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — style: reorder imports alphabetically in rule_engine
 
 # 10:29:10 — refactor: rename variable for clarity in rule_engine
+
+# 10:51:58 — docs: update example in docstring of rule_engine
