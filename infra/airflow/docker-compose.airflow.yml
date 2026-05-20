@@ -3,3 +3,5 @@
 # Generated: 2026-05-20T10:51:57.866764+00:00
 
 # 10:51:57 — feat: add ensemble_update task
+
+# 10:51:57 — ci: add Airflow DAG import validation to CI
