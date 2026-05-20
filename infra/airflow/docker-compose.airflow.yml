@@ -5,3 +5,5 @@
 # 10:51:57 — feat: add ensemble_update task
 
 # 10:51:57 — ci: add Airflow DAG import validation to CI
+
+# 10:51:57 — chore: add airflow db migrate to startup script
