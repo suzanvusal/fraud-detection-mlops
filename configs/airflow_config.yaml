@@ -1,3 +1,5 @@
 # configs/airflow_config.yaml
 # Day 23: Airflow retraining DAG
 # Generated: 2026-05-20T10:51:57.893407+00:00
+
+# 10:51:57 — feat: add DAG-level SLA and retry configuration
