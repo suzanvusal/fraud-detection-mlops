@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:39:27 — refactor: extract evaluation metrics to shared module
 
 # 09:47:49 — fix: correct off-by-one error in test_xgboost_trainer
+
+# 10:51:57 — refactor: extract magic number to constant in test_xgboost_t
