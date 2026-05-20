@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 10:51:57 — fix: Airflow requires FERNET_KEY on startup
