@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:29:10 — feat: implement decision explanation with top contributing f
 
 # 10:19:05 — style: reorder imports alphabetically in test_decision_engin
+
+# 10:51:57 — test: add assertion for return type in test_decision_engine
