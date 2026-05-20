@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:51:57 — feat: add model_training task for both IF and XGBoost
+
+# 10:51:57 — fix: Celery worker not picking up DAG changes
