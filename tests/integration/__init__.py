@@ -12,3 +12,5 @@
 # 10:25:43 — fix: correct off-by-one error in __init__
 
 # 11:45:25 — fix: correct off-by-one error in __init__
+
+# 11:27:47 — refactor: extract magic number to constant in __init__
