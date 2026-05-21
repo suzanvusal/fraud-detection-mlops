@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:51:58 — docs: update example in docstring of rule_engine
 
 # 11:27:47 — docs: add module docstring to rule_engine
+
+# 11:27:47 — fix: handle None input edge case in rule_engine
