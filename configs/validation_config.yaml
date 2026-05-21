@@ -3,3 +3,5 @@
 # Generated: 2026-05-21T11:27:47.391060+00:00
 
 # 11:27:47 — feat: implement Staging to Production with approval gate
+
+# 11:27:47 — test: add validator tests for promotion blocking on low AUC
