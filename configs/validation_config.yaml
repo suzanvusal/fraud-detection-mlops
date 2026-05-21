@@ -5,3 +5,5 @@
 # 11:27:47 — feat: implement Staging to Production with approval gate
 
 # 11:27:47 — test: add validator tests for promotion blocking on low AUC
+
+# 11:27:47 — fix: DeLong test using wrong variance formula
