@@ -7,3 +7,5 @@
 # 11:27:47 — test: add validator tests for promotion blocking on low AUC
 
 # 11:27:47 — fix: DeLong test using wrong variance formula
+
+# 11:27:47 — refactor: decouple validation from MLflow registration
