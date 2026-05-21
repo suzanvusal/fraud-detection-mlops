@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 11:19:37 — ci: add integration test step to CI pipeline
+
+# 11:27:47 — fix: correct off-by-one error in test_scoring_pipeline
