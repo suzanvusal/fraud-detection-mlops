@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 11:27:47 — fix: fairness evaluation failing on small subgroups
+
+# 11:27:47 — docs: add model governance policy
