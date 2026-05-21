@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 09:47:49 — perf: add caching to dlq_handler
 
 # 10:51:57 — chore: day 23 maintenance sweep
+
+# 11:27:47 — refactor: extract magic number to constant in dlq_handler
