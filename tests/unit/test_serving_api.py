@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 10:32:59 — feat: add P99 latency target: 100ms SLO
 
 # 10:32:59 — test: add pytest-asyncio tests verifying P99 < 100ms
+
+# 11:27:47 — perf: add caching to test_serving_api
