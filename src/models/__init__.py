@@ -19,3 +19,5 @@
 # 09:23:42 — docs: add module docstring to __init__
 
 # 11:19:37 — style: reorder imports alphabetically in __init__
+
+# 11:27:47 — fix: handle None input edge case in __init__
