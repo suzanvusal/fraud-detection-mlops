@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:32:59 — style: run black formatter on spending_profile
 
 # 11:27:47 — docs: fix typo in inline comment in spending_profile
+
+# 10:52:23 — test: add assertion for return type in spending_profile
