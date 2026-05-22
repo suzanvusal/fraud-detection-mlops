@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 09:23:43 — docs: fix typo in inline comment in hard_rules
 
 # 09:47:49 — fix: correct off-by-one error in hard_rules
+
+# 10:52:23 — fix: handle None input edge case in hard_rules
