@@ -87,3 +87,5 @@ class CanaryManager:
         logger.error("Canary rollback: %s", reason)
         self.state.phase = CanaryPhase.ROLLED_BACK
         self.state.canary_share = 0.0
+
+# 10:52:23 — test: add integration test for canary deployment flow
