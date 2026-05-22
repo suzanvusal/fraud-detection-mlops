@@ -9,3 +9,5 @@
 # 09:39:27 — fix: remove unused import in __init__
 
 # 10:32:59 — test: add assertion for return type in __init__
+
+# 10:52:23 — docs: update example in docstring of __init__
