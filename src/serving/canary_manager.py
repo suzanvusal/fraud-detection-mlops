@@ -89,3 +89,5 @@ class CanaryManager:
         self.state.canary_share = 0.0
 
 # 10:52:23 — test: add integration test for canary deployment flow
+
+# 10:52:23 — fix: rollback not updating model pointer atomically
