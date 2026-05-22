@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — feat: add canary status endpoint to API
 
 # 10:52:23 — fix: traffic split not atomic causing brief 100% canary
+
+# 10:52:23 — perf: reduce canary health check interval to 10s
