@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:27:47 — docs: fix typo in inline comment in spending_profile
 
 # 10:52:23 — test: add assertion for return type in spending_profile
+
+# 10:52:23 — docs: add module docstring to spending_profile
