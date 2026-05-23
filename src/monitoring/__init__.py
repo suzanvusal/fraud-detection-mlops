@@ -17,3 +17,5 @@
 # 09:39:27 — style: run black formatter on __init__
 
 # 11:23:39 — perf: add caching to __init__
+
+# 09:55:04 — fix: handle None input edge case in __init__
