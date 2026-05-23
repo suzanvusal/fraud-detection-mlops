@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 09:55:04 — perf: profile and fix N+1 Redis queries in feature lookup
