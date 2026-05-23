@@ -3,3 +3,5 @@
 # 09:55:04 — perf: add Kafka producer batch size tuning
 
 # 09:55:04 — refactor: switch sync DB calls to async in hot path
+
+# 09:55:04 — fix: Kafka producer buffer full under burst load
