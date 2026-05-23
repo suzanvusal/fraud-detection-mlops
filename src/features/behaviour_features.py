@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:20:40 — docs: fix typo in inline comment in behaviour_features
 
 # 10:19:05 — fix: add missing type hint in behaviour_features
+
+# 09:55:04 — test: add assertion for return type in behaviour_features
