@@ -15,3 +15,5 @@
 # 09:23:43 — perf: add caching to __init__
 
 # 11:23:39 — chore: day 14 maintenance sweep
+
+# 09:55:04 — fix: add missing type hint in __init__
