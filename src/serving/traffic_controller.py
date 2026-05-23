@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:52:23 — feat: add canary deployment audit log
+
+# 09:55:04 — fix: handle None input edge case in traffic_controller
