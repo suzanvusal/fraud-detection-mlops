@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:39:27 — fix: SHAP values failing on sparse feature matrix
 
 # 11:19:37 — fix: remove unused import in xgboost_trainer
+
+# 09:56:05 — docs: add module docstring to xgboost_trainer
