@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:56:05 — feat: add API rate limiting per client
 
 # 09:56:05 — style: run black formatter on audit_logger
+
+# 09:56:05 — docs: fix typo in inline comment in audit_logger
