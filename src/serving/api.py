@@ -100,3 +100,5 @@ async def metrics():
 # 09:41:52 — style: reorder imports alphabetically in api
 
 # 11:45:25 — style: run black formatter on api
+
+# 09:56:05 — docs: update example in docstring of api
