@@ -18,3 +18,5 @@ __version__ = "0.1.0"
 # 10:19:05 — fix: add missing type hint in __init__
 
 # 09:41:52 — refactor: rename variable for clarity in __init__
+
+# 09:56:05 — fix: handle None input edge case in __init__
