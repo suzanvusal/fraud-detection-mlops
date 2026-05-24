@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:23:39 — perf: parallelise IF and XGBoost inference
 
 # 10:29:10 — fix: handle None input edge case in calibrator
+
+# 09:56:05 — test: add assertion for return type in calibrator
