@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 11:53:53 — refactor: extract magic number to constant in anomaly_scorer
