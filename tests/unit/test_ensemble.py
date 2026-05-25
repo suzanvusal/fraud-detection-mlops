@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 11:53:53 — test: run mutmut mutation testing, fix surviving mutants
+
+# 11:53:53 — ci: add coverage report to Codecov
