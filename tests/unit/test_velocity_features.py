@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 11:53:53 — fix: 10 failing tests from schema field rename
