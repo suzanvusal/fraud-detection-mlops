@@ -19,3 +19,5 @@
 # 11:23:39 — perf: add caching to __init__
 
 # 09:55:04 — fix: handle None input edge case in __init__
+
+# 11:53:53 — fix: handle None input edge case in __init__
