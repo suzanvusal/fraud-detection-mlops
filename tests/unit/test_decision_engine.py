@@ -1,17 +1,9 @@
 """
 tests/unit/test_decision_engine.py
-Day 16: Decision engine: block, flag, allow
-Focus: Three-tier decision logic, risk thresholds, step-up authentication
+Day 28: Comprehensive test suite
+Focus: Unit test coverage > 80%, property tests, mutation testing
 """
 from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
-
-# 10:29:10 — feat: add dynamic threshold adjustment based on fraud rate
-
-# 10:29:10 — feat: implement decision explanation with top contributing f
-
-# 10:19:05 — style: reorder imports alphabetically in test_decision_engin
-
-# 10:51:57 — test: add assertion for return type in test_decision_engine
