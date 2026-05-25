@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — perf: add caching to explainability
 
 # 09:56:05 — fix: handle None input edge case in explainability
+
+# 11:53:53 — docs: update example in docstring of explainability
