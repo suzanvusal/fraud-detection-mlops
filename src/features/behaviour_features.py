@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:19:05 — fix: add missing type hint in behaviour_features
 
 # 09:55:04 — test: add assertion for return type in behaviour_features
+
+# 11:53:53 — docs: update example in docstring of behaviour_features
