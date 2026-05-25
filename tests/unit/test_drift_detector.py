@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:53:53 — ci: enforce 80% coverage threshold
 
 # 11:53:53 — fix: flaky test using time.sleep, switch to freezegun
+
+# 11:53:53 — docs: document test strategy
