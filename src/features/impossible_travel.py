@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 10:04:14 — fix: add missing type hint in impossible_travel
+
+# 11:39:01 — fix: remove unused import in impossible_travel
