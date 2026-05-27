@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — fix: traffic split not atomic causing brief 100% canary
 
 # 10:52:23 — perf: reduce canary health check interval to 10s
+
+# 11:39:00 — docs: update example in docstring of test_canary_deployment
