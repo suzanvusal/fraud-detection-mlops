@@ -3,3 +3,5 @@
 # Generated: 2026-05-27T11:39:00.870386+00:00
 
 # 11:39:00 — infra: add PVC for MLflow artifact storage
+
+# 11:39:00 — fix: Network Policy too restrictive blocking health checks
