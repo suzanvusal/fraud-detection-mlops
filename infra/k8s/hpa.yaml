@@ -5,3 +5,5 @@
 # 11:39:00 — infra: add Network Policies for service isolation
 
 # 11:39:00 — fix: HPA min replicas too low for production load
+
+# 11:39:00 — docs: add Kubernetes deployment guide
