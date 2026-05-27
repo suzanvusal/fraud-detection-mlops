@@ -1,3 +1,5 @@
 # infra/k8s/namespace.yaml
 # Day 29: Kubernetes deployment manifests
 # Generated: 2026-05-27T11:39:00.849942+00:00
+
+# 11:39:00 — infra: add Ingress with TLS and rate limiting
