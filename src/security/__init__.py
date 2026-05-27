@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:56:05 — docs: add PCI DSS compliance checklist
 
 # 09:56:05 — test: add security tests for card data masking
+
+# 11:39:00 — docs: update example in docstring of __init__
