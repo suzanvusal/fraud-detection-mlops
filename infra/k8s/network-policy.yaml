@@ -3,3 +3,5 @@
 # Generated: 2026-05-27T11:39:00.888709+00:00
 
 # 11:39:00 — infra: add ConfigMap for all environment configuration
+
+# 11:39:00 — refactor: extract common K8s labels to kustomize base
