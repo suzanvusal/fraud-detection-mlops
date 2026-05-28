@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:51:57 — refactor: extract magic number to constant in test_xgboost_t
 
 # 11:27:47 — docs: fix typo in inline comment in test_xgboost_trainer
+
+# 11:39:29 — docs: update example in docstring of test_xgboost_trainer
