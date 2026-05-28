@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 09:55:04 — test: add assertion for return type in behaviour_features
 
 # 11:53:53 — docs: update example in docstring of behaviour_features
+
+# 11:39:29 — refactor: extract magic number to constant in behaviour_feat
