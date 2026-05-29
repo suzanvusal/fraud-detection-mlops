@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:55:04 — style: run black formatter on threshold_manager
+
+# 11:30:56 — perf: add caching to threshold_manager
