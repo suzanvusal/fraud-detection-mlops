@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:20:44 — feat: add anomaly threshold optimisation for F1 score
+
+# 11:30:56 — style: run black formatter on isolation_forest
