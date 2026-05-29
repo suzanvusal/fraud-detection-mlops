@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:51:58 — docs: add module docstring to geo_features
 
 # 11:27:47 — test: add assertion for return type in geo_features
+
+# 11:30:56 — perf: add caching to geo_features
