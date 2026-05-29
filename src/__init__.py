@@ -20,3 +20,5 @@ __version__ = "0.1.0"
 # 09:41:52 — refactor: rename variable for clarity in __init__
 
 # 09:56:05 — fix: handle None input edge case in __init__
+
+# 11:30:56 — chore: add logging statement to __init__
