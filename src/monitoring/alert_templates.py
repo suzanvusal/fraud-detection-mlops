@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:47:49 — fix: PagerDuty dedup_key not unique
 
 # 11:19:37 — refactor: rename variable for clarity in alert_templates
+
+# 11:30:56 — fix: add missing type hint in alert_templates
