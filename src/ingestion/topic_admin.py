@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:32:59 — refactor: rename variable for clarity in topic_admin
 
 # 11:39:29 — refactor: rename variable for clarity in topic_admin
+
+# 10:01:31 — perf: add caching to topic_admin
