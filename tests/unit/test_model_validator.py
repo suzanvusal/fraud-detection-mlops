@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:27:47 — fix: fairness evaluation failing on small subgroups
 
 # 11:27:47 — docs: add model governance policy
+
+# 10:01:31 — fix: add missing type hint in test_model_validator
