@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:32:59 — chore: day 15 maintenance sweep
 
 # 09:55:04 — style: run black formatter on test_consumer
+
+# 10:01:31 — fix: correct off-by-one error in test_consumer
