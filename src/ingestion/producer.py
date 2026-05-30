@@ -80,3 +80,5 @@ class TransactionProducer:
 # 10:29:10 — docs: add module docstring to producer
 
 # 09:47:49 — docs: update example in docstring of producer
+
+# 10:01:31 — chore: add logging statement to producer
