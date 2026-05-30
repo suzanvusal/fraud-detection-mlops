@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:01:31 — chore: archive development notebooks
 
 # 10:01:31 — docs: fix broken links in README
+
+# 10:01:31 — fix: env variable names inconsistent across services
