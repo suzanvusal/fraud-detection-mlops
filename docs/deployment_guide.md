@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:01:31 — docs: add fraud detection methodology to docs/
 
 # 10:01:31 — chore: archive development notebooks
+
+# 10:01:31 — docs: fix broken links in README
