@@ -20,3 +20,5 @@
 # 09:22:58 — fix: remove unused import in __init__
 
 # 09:23:43 — perf: add caching to __init__
+
+# 10:17:01 — chore: add logging statement to __init__
