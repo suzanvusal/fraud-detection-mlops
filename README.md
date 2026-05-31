@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 10:17:00 — security: add SECURITY.md with vulnerability reporting
+
+# 10:17:00 — docs: add fraud detection methodology to docs/
