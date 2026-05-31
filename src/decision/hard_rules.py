@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — fix: handle None input edge case in hard_rules
 
 # 11:39:01 — fix: remove unused import in hard_rules
+
+# 10:17:01 — style: run black formatter on hard_rules
