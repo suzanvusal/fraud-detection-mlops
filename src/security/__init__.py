@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:39:00 — docs: update example in docstring of __init__
 
 # 10:17:01 — docs: update example in docstring of __init__
+
+# 10:17:01 — refactor: rename variable for clarity in __init__
