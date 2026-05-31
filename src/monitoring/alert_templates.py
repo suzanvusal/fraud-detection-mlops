@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:19:37 — refactor: rename variable for clarity in alert_templates
 
 # 11:30:56 — fix: add missing type hint in alert_templates
+
+# 10:17:01 — fix: remove unused import in alert_templates
