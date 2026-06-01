@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — perf: reduce canary health check interval to 10s
 
 # 11:39:00 — docs: update example in docstring of test_canary_deployment
+
+# 13:37:10 — docs: add module docstring to test_canary_deployment
