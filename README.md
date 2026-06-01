@@ -64,3 +64,5 @@ MIT
 # 13:37:10 — docs: add fraud detection methodology to docs/
 
 # 13:37:10 — chore: archive development notebooks
+
+# 13:37:10 — docs: fix broken links in README
