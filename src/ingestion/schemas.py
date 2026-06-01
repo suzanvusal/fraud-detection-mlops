@@ -80,3 +80,5 @@ class Transaction(BaseModel):
 # 09:47:49 — docs: fix typo in inline comment in schemas
 
 # 11:19:37 — docs: add module docstring to schemas
+
+# 13:37:10 — style: run black formatter on schemas
