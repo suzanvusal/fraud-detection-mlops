@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:53:53 — ci: add coverage report to Codecov
 
 # 11:53:53 — fix: correct off-by-one error in test_ensemble
+
+# 13:37:10 — docs: fix typo in inline comment in test_ensemble
