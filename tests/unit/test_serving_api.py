@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:27:47 — perf: add caching to test_serving_api
 
 # 10:01:31 — fix: handle None input edge case in test_serving_api
+
+# 12:05:28 — style: run black formatter on test_serving_api
