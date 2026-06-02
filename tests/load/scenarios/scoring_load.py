@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 09:55:04 — perf: tune uvicorn worker count for throughput
+
+# 12:05:28 — refactor: extract magic number to constant in scoring_load
