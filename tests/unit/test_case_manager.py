@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:19:37 — style: run black formatter on test_case_manager
 
 # 11:53:53 — docs: add module docstring to test_case_manager
+
+# 12:05:28 — chore: add logging statement to test_case_manager
