@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:53:53 — perf: add caching to test_feature_store
 
 # 11:53:53 — refactor: extract magic number to constant in test_feature_s
+
+# 12:05:28 — style: run black formatter on test_feature_store
