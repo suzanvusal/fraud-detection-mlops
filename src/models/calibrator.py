@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:29:10 — fix: handle None input edge case in calibrator
 
 # 09:56:05 — test: add assertion for return type in calibrator
+
+# 12:05:28 — chore: add logging statement to calibrator
