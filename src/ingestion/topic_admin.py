@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — perf: add caching to topic_admin
 
 # 13:37:10 — fix: remove unused import in topic_admin
+
+# 12:05:28 — docs: update example in docstring of topic_admin
