@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:56:05 — style: run black formatter on audit_logger
 
 # 09:56:05 — docs: fix typo in inline comment in audit_logger
+
+# 12:05:28 — perf: add caching to audit_logger
