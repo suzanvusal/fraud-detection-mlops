@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 11:53:53 — fix: 10 failing tests from schema field rename
+
+# 12:05:28 — fix: handle None input edge case in test_velocity_features
