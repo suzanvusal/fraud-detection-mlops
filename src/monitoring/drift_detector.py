@@ -62,3 +62,5 @@ class FraudDriftDetector:
 # 10:25:14 — fix: Evidently failing on zero-variance reference features
 
 # 10:25:15 — chore: day 18 maintenance sweep
+
+# 12:05:28 — fix: correct off-by-one error in drift_detector
