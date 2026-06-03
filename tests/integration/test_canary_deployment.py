@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:39:00 — docs: update example in docstring of test_canary_deployment
 
 # 13:37:10 — docs: add module docstring to test_canary_deployment
+
+# 12:42:32 — fix: remove unused import in test_canary_deployment
