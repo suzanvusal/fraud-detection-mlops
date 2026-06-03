@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:23:43 — chore: add logging statement to feature_store
 
 # 09:47:49 — refactor: extract magic number to constant in feature_store
+
+# 12:42:32 — fix: correct off-by-one error in feature_store
