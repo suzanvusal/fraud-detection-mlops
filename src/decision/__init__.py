@@ -19,3 +19,5 @@
 # 09:55:04 — fix: add missing type hint in __init__
 
 # 11:53:53 — docs: fix typo in inline comment in __init__
+
+# 12:42:32 — chore: add logging statement to __init__
