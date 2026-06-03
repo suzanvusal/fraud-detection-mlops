@@ -91,3 +91,5 @@ class CanaryManager:
 # 10:52:23 — test: add integration test for canary deployment flow
 
 # 10:52:23 — fix: rollback not updating model pointer atomically
+
+# 12:42:32 — refactor: rename variable for clarity in canary_manager
