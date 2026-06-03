@@ -22,3 +22,5 @@ __version__ = "0.1.0"
 # 09:56:05 — fix: handle None input edge case in __init__
 
 # 11:30:56 — chore: add logging statement to __init__
+
+# 12:42:32 — docs: update example in docstring of __init__
