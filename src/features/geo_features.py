@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:27:47 — test: add assertion for return type in geo_features
 
 # 11:30:56 — perf: add caching to geo_features
+
+# 11:16:34 — fix: add missing type hint in geo_features
