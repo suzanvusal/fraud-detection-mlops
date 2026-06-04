@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:51:57 — style: run black formatter on fraud_simulator
 
 # 11:39:01 — style: run black formatter on fraud_simulator
+
+# 11:16:35 — test: add assertion for return type in fraud_simulator
