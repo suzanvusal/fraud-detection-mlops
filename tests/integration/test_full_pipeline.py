@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:19:37 — fix: fraud simulator generating unrealistic amounts
 
 # 09:56:05 — fix: handle None input edge case in test_full_pipeline
+
+# 11:29:31 — docs: update example in docstring of test_full_pipeline
