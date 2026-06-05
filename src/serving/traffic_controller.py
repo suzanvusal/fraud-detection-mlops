@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:55:04 — fix: handle None input edge case in traffic_controller
 
 # 11:39:01 — docs: fix typo in inline comment in traffic_controller
+
+# 11:29:31 — docs: update example in docstring of traffic_controller
