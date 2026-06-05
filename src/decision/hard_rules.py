@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 13:37:10 — test: add assertion for return type in hard_rules
 
 # 13:37:10 — docs: fix typo in inline comment in hard_rules
+
+# 11:29:31 — style: run black formatter on hard_rules
