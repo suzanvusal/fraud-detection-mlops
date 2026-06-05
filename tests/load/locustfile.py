@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:39:29 — refactor: extract magic number to constant in locustfile
 
 # 10:17:01 — docs: update example in docstring of locustfile
+
+# 11:29:31 — fix: handle None input edge case in locustfile
