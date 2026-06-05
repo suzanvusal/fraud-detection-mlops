@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 11:29:31 — ci: add end-to-end smoke test to release pipeline
+
+# 11:29:31 — fix: env variable names inconsistent across services
