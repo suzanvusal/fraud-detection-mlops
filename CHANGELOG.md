@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:04:48 — ci: add end-to-end smoke test to release pipeline
 
 # 10:04:48 — docs: add fraud detection methodology to docs/
+
+# 10:04:48 — chore: archive development notebooks
