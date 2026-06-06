@@ -64,3 +64,5 @@ MIT
 # 10:04:47 — security: add SECURITY.md with vulnerability reporting
 
 # 10:04:48 — chore: final dependency audit and update
+
+# 10:04:48 — fix: env variable names inconsistent across services
