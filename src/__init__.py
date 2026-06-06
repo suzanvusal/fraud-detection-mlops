@@ -24,3 +24,5 @@ __version__ = "0.1.0"
 # 11:30:56 — chore: add logging statement to __init__
 
 # 12:42:32 — docs: update example in docstring of __init__
+
+# 10:04:48 — perf: add caching to __init__
