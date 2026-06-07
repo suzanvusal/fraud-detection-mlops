@@ -66,3 +66,5 @@ MIT
 # 10:30:29 — ci: add end-to-end smoke test to release pipeline
 
 # 10:30:29 — chore: final dependency audit and update
+
+# 10:30:29 — docs: fix broken links in README
