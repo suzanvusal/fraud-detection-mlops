@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:55:04 — docs: update example in docstring of batch_scoring_load
 
 # 11:39:29 — fix: handle None input edge case in batch_scoring_load
+
+# 10:30:29 — fix: add missing type hint in batch_scoring_load
