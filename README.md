@@ -64,3 +64,5 @@ MIT
 # 10:30:29 — chore: tag v1.0.0 release
 
 # 10:30:29 — ci: add end-to-end smoke test to release pipeline
+
+# 10:30:29 — chore: final dependency audit and update
