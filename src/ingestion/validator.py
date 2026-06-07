@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 10:51:57 — docs: add module docstring to validator
 
 # 10:17:01 — style: run black formatter on validator
+
+# 10:30:29 — test: add assertion for return type in validator
