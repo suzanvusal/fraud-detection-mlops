@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:19:05 — fix: add missing type hint in test_geo_features
 
 # 09:47:49 — fix: handle None input edge case in test_geo_features
+
+# 10:30:29 — refactor: extract magic number to constant in test_geo_featu
