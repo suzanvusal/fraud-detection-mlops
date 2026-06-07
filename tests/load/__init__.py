@@ -16,3 +16,5 @@
 # 11:39:29 — chore: day 30 maintenance sweep
 
 # 10:01:31 — docs: add module docstring to __init__
+
+# 10:30:29 — fix: add missing type hint in __init__
