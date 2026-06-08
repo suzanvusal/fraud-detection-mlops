@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 13:37:10 — style: run black formatter on hyperparameter_tuner
 
 # 12:31:23 — fix: correct off-by-one error in hyperparameter_tuner
+
+# 12:31:23 — perf: add caching to hyperparameter_tuner
