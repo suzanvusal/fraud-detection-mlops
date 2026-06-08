@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — docs: add module docstring to behaviour_features
 
 # 10:30:29 — refactor: rename variable for clarity in behaviour_features
+
+# 12:31:23 — refactor: extract magic number to constant in behaviour_feat
