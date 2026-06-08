@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 12:31:23 — docs: add fraud detection methodology to docs/
 
 # 12:31:23 — chore: final dependency audit and update
+
+# 12:31:23 — chore: archive development notebooks
