@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 09:55:04 — chore: day 26 maintenance sweep
 
 # 11:16:35 — docs: fix typo in inline comment in rule_engine
+
+# 12:31:23 — perf: add caching to rule_engine
