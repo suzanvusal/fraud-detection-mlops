@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 11:16:58 — chore: tag v1.0.0 release
+
+# 11:16:58 — ci: add end-to-end smoke test to release pipeline
