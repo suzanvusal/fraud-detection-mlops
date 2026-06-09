@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 11:45:25 — chore: add logging statement to feature_schema
 
 # 11:39:01 — fix: correct off-by-one error in feature_schema
+
+# 11:16:58 — fix: remove unused import in feature_schema
