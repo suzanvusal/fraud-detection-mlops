@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 09:47:49 — refactor: extract magic number to constant in feature_store
 
 # 12:42:32 — fix: correct off-by-one error in feature_store
+
+# 11:16:58 — perf: add caching to feature_store
