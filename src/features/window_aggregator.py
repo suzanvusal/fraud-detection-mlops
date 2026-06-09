@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 09:39:27 — fix: remove unused import in window_aggregator
 
 # 11:45:25 — fix: remove unused import in window_aggregator
+
+# 11:16:58 — fix: add missing type hint in window_aggregator
