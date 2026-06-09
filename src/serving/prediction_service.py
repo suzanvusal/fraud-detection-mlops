@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:45:25 — style: run black formatter on prediction_service
 
 # 10:01:31 — chore: add logging statement to prediction_service
+
+# 11:16:58 — refactor: extract magic number to constant in prediction_ser
