@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 13:37:10 — fix: correct off-by-one error in prediction_logger
 
 # 10:30:29 — chore: day 30 maintenance sweep
+
+# 11:16:58 — test: add assertion for return type in prediction_logger
