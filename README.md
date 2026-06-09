@@ -64,3 +64,5 @@ MIT
 # 11:16:58 — chore: tag v1.0.0 release
 
 # 11:16:58 — ci: add end-to-end smoke test to release pipeline
+
+# 11:16:58 — fix: env variable names inconsistent across services
