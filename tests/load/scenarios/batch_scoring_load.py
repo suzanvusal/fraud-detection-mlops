@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:39:29 — fix: handle None input edge case in batch_scoring_load
 
 # 10:30:29 — fix: add missing type hint in batch_scoring_load
+
+# 11:16:58 — refactor: extract magic number to constant in batch_scoring_
