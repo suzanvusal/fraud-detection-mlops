@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:39:29 — docs: update example in docstring of test_xgboost_trainer
 
 # 11:30:56 — refactor: rename variable for clarity in test_xgboost_traine
+
+# 11:16:58 — docs: fix typo in inline comment in test_xgboost_trainer
