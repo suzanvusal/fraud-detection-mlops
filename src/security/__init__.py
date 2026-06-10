@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:17:01 — refactor: rename variable for clarity in __init__
 
 # 10:17:01 — perf: add caching to __init__
+
+# 11:39:16 — refactor: extract magic number to constant in __init__
