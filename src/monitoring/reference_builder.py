@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:04:48 — docs: update example in docstring of reference_builder
 
 # 12:31:23 — style: run black formatter on reference_builder
+
+# 11:39:16 — docs: add module docstring to reference_builder
