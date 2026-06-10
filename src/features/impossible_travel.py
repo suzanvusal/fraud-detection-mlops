@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — docs: update example in docstring of impossible_travel
 
 # 13:37:10 — style: reorder imports alphabetically in impossible_travel
+
+# 11:39:16 — fix: handle None input edge case in impossible_travel
