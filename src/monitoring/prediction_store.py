@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — chore: add logging statement to prediction_store
 
 # 11:39:01 — fix: correct off-by-one error in prediction_store
+
+# 11:39:16 — fix: add missing type hint in prediction_store
