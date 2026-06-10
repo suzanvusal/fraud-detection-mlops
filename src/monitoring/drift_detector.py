@@ -68,3 +68,5 @@ class FraudDriftDetector:
 # 11:16:35 — docs: fix typo in inline comment in drift_detector
 
 # 11:39:16 — fix: correct off-by-one error in drift_detector
+
+# 11:39:16 — fix: handle None input edge case in drift_detector
