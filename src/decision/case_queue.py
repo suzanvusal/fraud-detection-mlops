@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 09:41:52 — feat: implement case statistics dashboard endpoint
 
 # 09:41:52 — test: add case manager tests for all status transitions
+
+# 11:39:16 — fix: handle None input edge case in case_queue
