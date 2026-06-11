@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:16:58 — docs: update example in docstring of __init__
 
 # 12:10:42 — test: add assertion for return type in __init__
+
+# 12:10:42 — fix: correct off-by-one error in __init__
