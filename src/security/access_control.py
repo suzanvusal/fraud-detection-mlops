@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:53:53 — test: add assertion for return type in access_control
 
 # 10:04:48 — refactor: rename variable for clarity in access_control
+
+# 12:10:42 — perf: add caching to access_control
