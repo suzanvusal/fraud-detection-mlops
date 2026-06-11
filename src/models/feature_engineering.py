@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:19:37 — test: add assertion for return type in feature_engineering
 
 # 10:17:01 — fix: handle None input edge case in feature_engineering
+
+# 12:10:42 — docs: add module docstring to feature_engineering
