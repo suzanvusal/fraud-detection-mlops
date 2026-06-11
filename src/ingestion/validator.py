@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:17:01 — style: run black formatter on validator
 
 # 10:30:29 — test: add assertion for return type in validator
+
+# 12:10:42 — docs: fix typo in inline comment in validator
