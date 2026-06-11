@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 11:16:34 — refactor: rename variable for clarity in consumer
 
 # 11:16:35 — style: run black formatter on consumer
+
+# 12:10:42 — test: add assertion for return type in consumer
