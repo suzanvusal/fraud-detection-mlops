@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:39:29 — fix: remove unused import in test_rule_engine
 
 # 11:39:16 — style: reorder imports alphabetically in test_rule_engine
+
+# 12:10:42 — perf: add caching to test_rule_engine
