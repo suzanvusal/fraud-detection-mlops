@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 12:05:28 — chore: add logging statement to response_models
 
 # 11:44:06 — style: reorder imports alphabetically in response_models
+
+# 11:44:06 — fix: handle None input edge case in response_models
