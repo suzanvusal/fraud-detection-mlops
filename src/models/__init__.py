@@ -25,3 +25,5 @@
 # 13:37:10 — style: run black formatter on __init__
 
 # 12:10:42 — fix: add missing type hint in __init__
+
+# 11:44:06 — perf: add caching to __init__
