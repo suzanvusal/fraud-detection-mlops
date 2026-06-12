@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 09:41:52 — style: run black formatter on merchant_risk
 
 # 09:47:49 — chore: add logging statement to merchant_risk
+
+# 11:44:06 — docs: add module docstring to merchant_risk
