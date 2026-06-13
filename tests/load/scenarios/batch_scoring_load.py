@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:16:58 — refactor: extract magic number to constant in batch_scoring_
 
 # 11:44:06 — refactor: rename variable for clarity in batch_scoring_load
+
+# 10:30:17 — test: add assertion for return type in batch_scoring_load
