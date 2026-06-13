@@ -105,3 +105,5 @@ class VelocityFeatureEngine:
 # 10:29:10 — style: reorder imports alphabetically in velocity_features
 
 # 10:04:48 — style: run black formatter on velocity_features
+
+# 10:30:17 — fix: handle None input edge case in velocity_features
