@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:17:01 — perf: add caching to __init__
 
 # 11:39:16 — refactor: extract magic number to constant in __init__
+
+# 10:30:17 — fix: remove unused import in __init__
