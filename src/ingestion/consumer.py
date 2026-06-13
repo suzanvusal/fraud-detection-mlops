@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 11:16:35 — style: run black formatter on consumer
 
 # 12:10:42 — test: add assertion for return type in consumer
+
+# 10:30:18 — fix: correct off-by-one error in consumer
