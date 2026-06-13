@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — docs: add module docstring to spending_profile
 
 # 11:39:16 — style: reorder imports alphabetically in spending_profile
+
+# 10:30:17 — refactor: extract magic number to constant in spending_profi
