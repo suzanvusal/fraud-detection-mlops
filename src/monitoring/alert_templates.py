@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:30:56 — fix: add missing type hint in alert_templates
 
 # 10:17:01 — fix: remove unused import in alert_templates
+
+# 10:30:17 — fix: handle None input edge case in alert_templates
