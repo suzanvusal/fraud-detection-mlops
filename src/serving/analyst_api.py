@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:29:31 — docs: update example in docstring of analyst_api
 
 # 10:30:29 — refactor: extract magic number to constant in analyst_api
+
+# 10:49:28 — perf: add caching to analyst_api
