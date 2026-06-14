@@ -70,3 +70,5 @@ class FraudDriftDetector:
 # 11:39:16 — fix: correct off-by-one error in drift_detector
 
 # 11:39:16 — fix: handle None input edge case in drift_detector
+
+# 10:49:28 — docs: update example in docstring of drift_detector
