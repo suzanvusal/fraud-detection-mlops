@@ -14,3 +14,5 @@
 # 13:37:10 — style: reorder imports alphabetically in __init__
 
 # 10:30:29 — test: add assertion for return type in __init__
+
+# 10:49:28 — fix: handle None input edge case in __init__
