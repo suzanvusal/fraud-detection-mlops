@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:04:48 — chore: day 30 maintenance sweep
 
 # 10:04:48 — fix: remove unused import in test_drift_detector
+
+# 10:49:28 — test: add assertion for return type in test_drift_detector
