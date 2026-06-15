@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:16:35 — perf: add caching to model_promoter
 
 # 10:04:48 — style: reorder imports alphabetically in model_promoter
+
+# 13:56:42 — docs: add module docstring to model_promoter
