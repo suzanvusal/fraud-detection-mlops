@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 11:30:56 — perf: add caching to threshold_manager
 
 # 12:31:23 — fix: correct off-by-one error in threshold_manager
+
+# 13:56:42 — fix: handle None input edge case in threshold_manager
