@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:04:48 — refactor: rename variable for clarity in access_control
 
 # 12:10:42 — perf: add caching to access_control
+
+# 13:56:42 — docs: update example in docstring of access_control
