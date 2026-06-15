@@ -60,7 +60,3 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 
 ## License
 MIT
-
-# 10:49:28 — chore: tag v1.0.0 release
-
-# 10:49:28 — docs: add fraud detection methodology to docs/
