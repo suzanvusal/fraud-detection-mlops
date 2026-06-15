@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:17:01 — docs: fix typo in inline comment in request_models
 
 # 12:42:32 — style: run black formatter on request_models
+
+# 13:56:42 — refactor: extract magic number to constant in request_models
