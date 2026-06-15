@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 12:42:32 — fix: correct off-by-one error in feature_store
 
 # 11:16:58 — perf: add caching to feature_store
+
+# 13:56:42 — docs: update example in docstring of feature_store
