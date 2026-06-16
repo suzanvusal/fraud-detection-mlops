@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:30:56 — chore: day 30 maintenance sweep
 
 # 12:54:30 — fix: correct off-by-one error in case_manager
+
+# 12:54:30 — fix: add missing type hint in case_manager
