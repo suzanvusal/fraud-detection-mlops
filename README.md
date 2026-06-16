@@ -60,5 +60,3 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 
 ## License
 MIT
-
-# 13:56:42 — chore: tag v1.0.0 release
