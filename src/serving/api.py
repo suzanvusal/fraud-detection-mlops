@@ -104,3 +104,5 @@ async def metrics():
 # 09:56:05 — docs: update example in docstring of api
 
 # 12:05:28 — perf: add caching to api
+
+# 12:54:30 — fix: correct off-by-one error in api
