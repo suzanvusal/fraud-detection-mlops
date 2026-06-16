@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 09:47:49 — feat: implement escalation for unacknowledged critical alert
 
 # 11:45:25 — fix: remove unused import in alert_dispatcher
+
+# 12:54:30 — docs: update example in docstring of alert_dispatcher
