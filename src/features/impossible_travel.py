@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 13:37:10 — style: reorder imports alphabetically in impossible_travel
 
 # 11:39:16 — fix: handle None input edge case in impossible_travel
+
+# 12:54:30 — fix: correct off-by-one error in impossible_travel
