@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:16:34 — chore: add logging statement to test_scoring_pipeline
 
 # 11:39:16 — style: run black formatter on test_scoring_pipeline
+
+# 12:17:23 — perf: add caching to test_scoring_pipeline
