@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 12:10:42 — fix: handle None input edge case in model_validator
 
 # 10:30:17 — style: reorder imports alphabetically in model_validator
+
+# 12:17:23 — fix: correct off-by-one error in model_validator
