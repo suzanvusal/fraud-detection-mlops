@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:29:31 — fix: handle None input edge case in locustfile
 
 # 11:39:16 — style: run black formatter on locustfile
+
+# 11:51:12 — docs: add module docstring to locustfile
