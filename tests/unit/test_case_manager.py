@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:30:29 — style: reorder imports alphabetically in test_case_manager
 
 # 10:30:17 — chore: day 30 maintenance sweep
+
+# 11:51:12 — fix: handle None input edge case in test_case_manager
