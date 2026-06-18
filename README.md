@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 11:51:12 — chore: final dependency audit and update
+
+# 11:51:12 — chore: archive development notebooks
