@@ -64,3 +64,5 @@ MIT
 # 11:51:12 — chore: final dependency audit and update
 
 # 11:51:12 — chore: archive development notebooks
+
+# 11:51:12 — fix: env variable names inconsistent across services
