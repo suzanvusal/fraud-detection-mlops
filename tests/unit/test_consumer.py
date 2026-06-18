@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — fix: correct off-by-one error in test_consumer
 
 # 12:05:28 — perf: add caching to test_consumer
+
+# 11:51:12 — chore: add logging statement to test_consumer
