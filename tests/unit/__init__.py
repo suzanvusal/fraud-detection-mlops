@@ -18,3 +18,5 @@
 # 10:49:28 — fix: handle None input edge case in __init__
 
 # 13:56:42 — fix: remove unused import in __init__
+
+# 11:51:12 — test: add assertion for return type in __init__
