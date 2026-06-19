@@ -82,3 +82,5 @@ class TransactionProducer:
 # 09:47:49 — docs: update example in docstring of producer
 
 # 10:01:31 — chore: add logging statement to producer
+
+# 12:06:42 — docs: fix typo in inline comment in producer
