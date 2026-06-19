@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:16:58 — perf: add caching to feature_store
 
 # 13:56:42 — docs: update example in docstring of feature_store
+
+# 12:06:43 — test: add assertion for return type in feature_store
