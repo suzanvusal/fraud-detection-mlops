@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 11:39:16 — style: reorder imports alphabetically in spending_profile
 
 # 10:30:17 — refactor: extract magic number to constant in spending_profi
+
+# 12:06:42 — perf: add caching to spending_profile
