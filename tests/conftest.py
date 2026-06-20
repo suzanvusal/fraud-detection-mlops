@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 12:31:23 — perf: add caching to conftest
 
 # 11:39:16 — docs: add module docstring to conftest
+
+# 10:33:10 — docs: update example in docstring of conftest
