@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:44:06 — docs: add module docstring to merchant_risk
 
 # 13:56:42 — style: run black formatter on merchant_risk
+
+# 10:33:10 — fix: add missing type hint in merchant_risk
