@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — fix: handle None input edge case in test_alert_dispatcher
 
 # 12:17:23 — chore: day 30 maintenance sweep
+
+# 10:33:10 — fix: correct off-by-one error in test_alert_dispatcher
