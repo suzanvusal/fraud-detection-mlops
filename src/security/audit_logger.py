@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 12:10:42 — docs: add module docstring to audit_logger
 
 # 11:51:12 — style: reorder imports alphabetically in audit_logger
+
+# 11:16:43 — fix: handle None input edge case in audit_logger
