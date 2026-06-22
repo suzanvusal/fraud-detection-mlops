@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:49:28 — style: run black formatter on test_xgboost_trainer
 
 # 11:51:12 — test: add assertion for return type in test_xgboost_trainer
+
+# 13:35:55 — perf: add caching to test_xgboost_trainer
