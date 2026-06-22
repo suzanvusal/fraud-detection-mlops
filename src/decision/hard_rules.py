@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 12:06:42 — test: add assertion for return type in hard_rules
 
 # 12:06:43 — docs: fix typo in inline comment in hard_rules
+
+# 13:35:55 — refactor: extract magic number to constant in hard_rules
