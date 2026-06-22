@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 12:06:42 — docs: fix typo in inline comment in metrics
 
 # 10:33:10 — fix: add missing type hint in metrics
+
+# 13:35:55 — fix: remove unused import in metrics
