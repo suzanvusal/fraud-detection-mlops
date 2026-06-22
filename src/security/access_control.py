@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 12:10:42 — perf: add caching to access_control
 
 # 13:56:42 — docs: update example in docstring of access_control
+
+# 13:35:55 — docs: add module docstring to access_control
