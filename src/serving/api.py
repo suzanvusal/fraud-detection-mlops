@@ -106,3 +106,5 @@ async def metrics():
 # 12:05:28 — perf: add caching to api
 
 # 12:54:30 — fix: correct off-by-one error in api
+
+# 11:17:49 — fix: handle None input edge case in api
