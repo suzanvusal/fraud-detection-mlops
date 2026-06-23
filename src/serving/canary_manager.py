@@ -97,3 +97,5 @@ class CanaryManager:
 # 11:16:35 — refactor: rename variable for clarity in canary_manager
 
 # 12:06:43 — style: run black formatter on canary_manager
+
+# 11:17:49 — fix: handle None input edge case in canary_manager
