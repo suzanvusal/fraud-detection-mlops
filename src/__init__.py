@@ -26,3 +26,5 @@ __version__ = "0.1.0"
 # 12:42:32 — docs: update example in docstring of __init__
 
 # 10:04:48 — perf: add caching to __init__
+
+# 11:17:49 — fix: handle None input edge case in __init__
