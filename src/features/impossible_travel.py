@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:39:16 — fix: handle None input edge case in impossible_travel
 
 # 12:54:30 — fix: correct off-by-one error in impossible_travel
+
+# 11:17:49 — refactor: extract magic number to constant in impossible_tra
