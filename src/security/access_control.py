@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 13:56:42 — docs: update example in docstring of access_control
 
 # 13:35:55 — docs: add module docstring to access_control
+
+# 11:17:49 — fix: correct off-by-one error in access_control
