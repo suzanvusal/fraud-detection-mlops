@@ -24,3 +24,5 @@
 # 10:17:01 — chore: add logging statement to __init__
 
 # 11:44:06 — chore: day 30 maintenance sweep
+
+# 11:17:49 — docs: add module docstring to __init__
