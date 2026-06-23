@@ -64,3 +64,5 @@ MIT
 # 11:17:48 — docs: add production deployment guide
 
 # 11:17:49 — chore: tag v1.0.0 release
+
+# 11:17:49 — ci: add end-to-end smoke test to release pipeline
