@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:49:28 — chore: day 30 maintenance sweep
 
 # 12:17:23 — chore: day 30 maintenance sweep
+
+# 11:17:49 — docs: update example in docstring of isolation_forest
