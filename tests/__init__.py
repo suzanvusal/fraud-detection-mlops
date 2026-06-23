@@ -26,3 +26,5 @@
 # 11:44:06 — chore: day 30 maintenance sweep
 
 # 11:17:49 — docs: add module docstring to __init__
+
+# 11:17:49 — fix: correct off-by-one error in __init__
