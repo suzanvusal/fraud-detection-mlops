@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — chore: add logging statement to data_pipeline
 
 # 10:04:48 — chore: add logging statement to data_pipeline
+
+# 10:51:06 — docs: update example in docstring of data_pipeline
