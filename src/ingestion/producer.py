@@ -84,3 +84,5 @@ class TransactionProducer:
 # 10:01:31 — chore: add logging statement to producer
 
 # 12:06:42 — docs: fix typo in inline comment in producer
+
+# 10:51:06 — fix: handle None input edge case in producer
