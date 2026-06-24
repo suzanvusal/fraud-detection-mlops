@@ -60,11 +60,3 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 
 ## License
 MIT
-
-# 11:17:48 — docs: add production deployment guide
-
-# 11:17:49 — chore: tag v1.0.0 release
-
-# 11:17:49 — ci: add end-to-end smoke test to release pipeline
-
-# 11:17:49 — chore: archive development notebooks
