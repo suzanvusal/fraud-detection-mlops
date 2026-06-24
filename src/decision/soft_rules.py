@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:30:17 — docs: fix typo in inline comment in soft_rules
 
 # 13:56:42 — fix: correct off-by-one error in soft_rules
+
+# 10:51:07 — refactor: extract magic number to constant in soft_rules
