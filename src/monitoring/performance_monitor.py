@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:52:23 — refactor: rename variable for clarity in performance_monitor
 
 # 10:49:28 — docs: add module docstring to performance_monitor
+
+# 10:51:06 — fix: handle None input edge case in performance_monitor
