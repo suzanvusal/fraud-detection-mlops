@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 11:51:12 — fix: add missing type hint in test_model_validator
 
 # 11:16:43 — perf: add caching to test_model_validator
+
+# 10:43:02 — fix: correct off-by-one error in test_model_validator
