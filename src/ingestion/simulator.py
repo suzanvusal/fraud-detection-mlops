@@ -95,3 +95,5 @@ def transaction_stream(
 # 11:16:58 — refactor: rename variable for clarity in simulator
 
 # 10:30:17 — chore: add logging statement to simulator
+
+# 10:43:02 — fix: add missing type hint in simulator
