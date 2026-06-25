@@ -56,3 +56,5 @@ def test_not_high_value():
 # 10:14:55 — chore: day 7 maintenance sweep
 
 # 10:30:17 — refactor: rename variable for clarity in test_schemas
+
+# 10:43:02 — fix: handle None input edge case in test_schemas
