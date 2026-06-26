@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 12:42:32 — fix: remove unused import in test_canary_deployment
 
 # 12:42:32 — test: add assertion for return type in test_canary_deploymen
+
+# 10:52:45 — fix: remove unused import in test_canary_deployment
