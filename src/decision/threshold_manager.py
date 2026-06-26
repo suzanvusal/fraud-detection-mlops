@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 13:56:42 — fix: handle None input edge case in threshold_manager
 
 # 12:17:23 — fix: remove unused import in threshold_manager
+
+# 10:52:45 — style: run black formatter on threshold_manager
