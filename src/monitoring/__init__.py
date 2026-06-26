@@ -31,3 +31,5 @@
 # 11:16:58 — style: run black formatter on __init__
 
 # 13:56:42 — fix: handle None input edge case in __init__
+
+# 10:52:45 — fix: handle None input edge case in __init__
