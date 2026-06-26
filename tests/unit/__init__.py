@@ -22,3 +22,5 @@
 # 11:51:12 — test: add assertion for return type in __init__
 
 # 10:33:10 — docs: fix typo in inline comment in __init__
+
+# 10:52:45 — perf: add caching to __init__
