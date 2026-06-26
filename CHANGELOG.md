@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:52:45 — chore: tag v1.0.0 release
 
 # 10:52:45 — docs: fix broken links in README
+
+# 10:52:45 — refactor: remove all TODO comments
