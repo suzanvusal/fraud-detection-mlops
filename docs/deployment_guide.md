@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:52:45 — docs: add fraud detection methodology to docs/
 
 # 10:52:45 — chore: archive development notebooks
+
+# 10:52:45 — fix: env variable names inconsistent across services
