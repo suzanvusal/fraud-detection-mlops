@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:17:49 — fix: correct off-by-one error in access_control
 
 # 10:43:02 — fix: add missing type hint in access_control
+
+# 10:09:59 — docs: fix typo in inline comment in access_control
