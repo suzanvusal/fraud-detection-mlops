@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 13:35:55 — refactor: rename variable for clarity in test_scoring_pipeli
 
 # 10:52:45 — style: run black formatter on test_scoring_pipeline
+
+# 10:09:59 — test: add assertion for return type in test_scoring_pipeline
