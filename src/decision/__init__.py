@@ -27,3 +27,5 @@
 # 11:51:12 — docs: add module docstring to __init__
 
 # 11:17:49 — fix: remove unused import in __init__
+
+# 10:09:59 — test: add assertion for return type in __init__
