@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:16:43 — fix: correct off-by-one error in locustfile
 
 # 10:43:02 — docs: add module docstring to locustfile
+
+# 10:09:59 — fix: remove unused import in locustfile
