@@ -24,3 +24,5 @@
 # 12:06:42 — refactor: rename variable for clarity in __init__
 
 # 10:43:02 — fix: add missing type hint in __init__
+
+# 10:09:59 — fix: handle None input edge case in __init__
