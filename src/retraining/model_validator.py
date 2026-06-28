@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:30:17 — style: reorder imports alphabetically in model_validator
 
 # 12:17:23 — fix: correct off-by-one error in model_validator
+
+# 10:28:24 — refactor: extract magic number to constant in model_validato
