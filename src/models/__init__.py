@@ -27,3 +27,5 @@
 # 12:10:42 — fix: add missing type hint in __init__
 
 # 11:44:06 — perf: add caching to __init__
+
+# 10:28:24 — docs: fix typo in inline comment in __init__
