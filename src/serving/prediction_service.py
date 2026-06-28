@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 10:43:02 — test: add assertion for return type in prediction_service
 
 # 10:43:02 — test: add assertion for return type in prediction_service
+
+# 10:28:24 — fix: handle None input edge case in prediction_service
