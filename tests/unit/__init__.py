@@ -26,3 +26,5 @@
 # 10:52:45 — perf: add caching to __init__
 
 # 10:09:59 — refactor: rename variable for clarity in __init__
+
+# 10:28:24 — fix: handle None input edge case in __init__
