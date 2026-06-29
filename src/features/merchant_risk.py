@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:33:10 — fix: add missing type hint in merchant_risk
 
 # 10:43:02 — refactor: extract magic number to constant in merchant_risk
+
+# 12:36:06 — chore: add logging statement to merchant_risk
