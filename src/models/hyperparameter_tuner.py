@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:49:28 — style: run black formatter on hyperparameter_tuner
 
 # 10:09:59 — refactor: rename variable for clarity in hyperparameter_tune
+
+# 12:36:06 — fix: remove unused import in hyperparameter_tuner
