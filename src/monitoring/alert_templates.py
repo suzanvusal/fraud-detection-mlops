@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 12:17:23 — fix: remove unused import in alert_templates
 
 # 11:51:12 — docs: fix typo in inline comment in alert_templates
+
+# 12:36:06 — test: add assertion for return type in alert_templates
