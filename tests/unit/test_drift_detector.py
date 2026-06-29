@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:04:48 — fix: remove unused import in test_drift_detector
 
 # 10:49:28 — test: add assertion for return type in test_drift_detector
+
+# 12:36:06 — docs: update example in docstring of test_drift_detector
