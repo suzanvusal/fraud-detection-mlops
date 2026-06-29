@@ -60,9 +60,3 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 
 ## License
 MIT
-
-# 10:28:24 — docs: add fraud detection methodology to docs/
-
-# 10:28:24 — docs: fix broken links in README
-
-# 10:28:24 — fix: env variable names inconsistent across services
