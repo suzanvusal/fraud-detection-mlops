@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 13:56:42 — fix: correct off-by-one error in soft_rules
 
 # 10:51:07 — refactor: extract magic number to constant in soft_rules
+
+# 12:36:06 — chore: add logging statement to soft_rules
