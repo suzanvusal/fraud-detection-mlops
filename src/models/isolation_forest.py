@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:17:49 — docs: update example in docstring of isolation_forest
 
 # 10:51:07 — docs: add module docstring to isolation_forest
+
+# 12:36:06 — docs: update example in docstring of isolation_forest
