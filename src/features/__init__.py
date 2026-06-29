@@ -21,3 +21,5 @@
 # 11:53:53 — test: add assertion for return type in __init__
 
 # 11:39:29 — style: reorder imports alphabetically in __init__
+
+# 12:36:06 — docs: update example in docstring of __init__
