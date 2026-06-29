@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 12:36:06 — ci: add end-to-end smoke test to release pipeline
+
+# 12:36:06 — chore: final dependency audit and update
