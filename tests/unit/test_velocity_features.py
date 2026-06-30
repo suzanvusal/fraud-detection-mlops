@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 12:05:28 — fix: handle None input edge case in test_velocity_features
 
 # 12:54:30 — chore: day 30 maintenance sweep
+
+# 10:57:28 — fix: remove unused import in test_velocity_features
