@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 13:35:55 — fix: remove unused import in metrics
 
 # 10:28:24 — fix: remove unused import in metrics
+
+# 10:57:28 — fix: correct off-by-one error in metrics
