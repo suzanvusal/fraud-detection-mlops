@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:57:28 — security: add SECURITY.md with vulnerability reporting
 
 # 10:57:28 — ci: add end-to-end smoke test to release pipeline
+
+# 10:57:28 — docs: fix broken links in README
