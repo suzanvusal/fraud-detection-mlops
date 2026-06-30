@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:51:12 — docs: fix typo in inline comment in alert_templates
 
 # 12:36:06 — test: add assertion for return type in alert_templates
+
+# 10:57:28 — fix: add missing type hint in alert_templates
