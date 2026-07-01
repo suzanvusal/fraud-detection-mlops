@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:01:31 — fix: handle None input edge case in test_serving_api
 
 # 12:05:28 — style: run black formatter on test_serving_api
+
+# 11:24:49 — chore: add logging statement to test_serving_api
