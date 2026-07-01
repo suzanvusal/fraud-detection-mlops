@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:33:10 — docs: update example in docstring of test_ensemble
 
 # 10:09:59 — style: reorder imports alphabetically in test_ensemble
+
+# 11:24:49 — perf: add caching to test_ensemble
