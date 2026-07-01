@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:30:17 — chore: day 30 maintenance sweep
 
 # 11:51:12 — fix: handle None input edge case in test_case_manager
+
+# 11:24:49 — test: add assertion for return type in test_case_manager
