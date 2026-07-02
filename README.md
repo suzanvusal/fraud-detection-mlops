@@ -64,3 +64,5 @@ MIT
 # 10:41:29 — ci: add end-to-end smoke test to release pipeline
 
 # 10:41:29 — chore: final dependency audit and update
+
+# 10:41:29 — chore: archive development notebooks
