@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:57:28 — fix: add missing type hint in alert_templates
 
 # 11:24:49 — chore: add logging statement to alert_templates
+
+# 10:41:29 — fix: remove unused import in alert_templates
