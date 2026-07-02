@@ -109,3 +109,5 @@ class VelocityFeatureEngine:
 # 10:30:17 — fix: handle None input edge case in velocity_features
 
 # 10:57:28 — style: reorder imports alphabetically in velocity_features
+
+# 10:41:30 — fix: remove unused import in velocity_features
