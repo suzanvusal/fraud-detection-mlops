@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:04:48 — chore: add logging statement to data_pipeline
 
 # 10:51:06 — docs: update example in docstring of data_pipeline
+
+# 10:41:29 — refactor: extract magic number to constant in data_pipeline
