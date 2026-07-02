@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:51:06 — docs: add module docstring to feature_store
 
 # 10:52:45 — fix: remove unused import in feature_store
+
+# 10:41:30 — style: run black formatter on feature_store
