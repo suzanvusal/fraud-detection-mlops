@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 13:35:55 — fix: remove unused import in window_aggregator
 
 # 10:57:28 — refactor: rename variable for clarity in window_aggregator
+
+# 10:41:29 — fix: correct off-by-one error in window_aggregator
