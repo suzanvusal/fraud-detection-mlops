@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 11:39:16 — fix: add missing type hint in prediction_store
 
 # 10:43:02 — fix: handle None input edge case in prediction_store
+
+# 10:41:29 — docs: add module docstring to prediction_store
