@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 10:52:45 — style: run black formatter on test_scoring_pipeline
 
 # 10:09:59 — test: add assertion for return type in test_scoring_pipeline
+
+# 10:36:48 — fix: handle None input edge case in test_scoring_pipeline
