@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 12:31:23 — refactor: extract magic number to constant in behaviour_feat
 
 # 10:43:02 — fix: remove unused import in behaviour_features
+
+# 10:36:48 — fix: handle None input edge case in behaviour_features
