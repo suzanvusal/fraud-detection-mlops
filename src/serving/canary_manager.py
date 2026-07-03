@@ -103,3 +103,5 @@ class CanaryManager:
 # 11:24:49 — fix: remove unused import in canary_manager
 
 # 10:36:48 — chore: day 30 maintenance sweep
+
+# 10:36:48 — chore: add logging statement to canary_manager
