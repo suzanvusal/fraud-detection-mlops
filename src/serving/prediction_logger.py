@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 11:16:58 — test: add assertion for return type in prediction_logger
 
 # 11:39:16 — docs: update example in docstring of prediction_logger
+
+# 10:36:48 — docs: fix typo in inline comment in prediction_logger
