@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 12:31:23 — perf: add caching to rule_engine
 
 # 12:17:23 — docs: update example in docstring of rule_engine
+
+# 10:36:48 — docs: fix typo in inline comment in rule_engine
