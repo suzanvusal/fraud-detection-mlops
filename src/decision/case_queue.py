@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:16:43 — refactor: rename variable for clarity in case_queue
 
 # 13:35:55 — fix: add missing type hint in case_queue
+
+# 10:10:37 — perf: add caching to case_queue
