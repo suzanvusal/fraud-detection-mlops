@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 10:52:45 — refactor: rename variable for clarity in geo_features
 
 # 10:28:24 — fix: add missing type hint in geo_features
+
+# 10:10:37 — docs: update example in docstring of geo_features
