@@ -64,3 +64,5 @@ MIT
 # 10:10:37 — security: add SECURITY.md with vulnerability reporting
 
 # 10:10:37 — docs: add fraud detection methodology to docs/
+
+# 10:10:37 — fix: env variable names inconsistent across services
