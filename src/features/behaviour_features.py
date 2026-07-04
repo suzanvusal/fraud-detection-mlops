@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:43:02 — fix: remove unused import in behaviour_features
 
 # 10:36:48 — fix: handle None input edge case in behaviour_features
+
+# 10:10:37 — fix: correct off-by-one error in behaviour_features
