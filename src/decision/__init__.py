@@ -31,3 +31,5 @@
 # 10:09:59 — test: add assertion for return type in __init__
 
 # 10:09:59 — docs: add module docstring to __init__
+
+# 10:10:37 — chore: add logging statement to __init__
