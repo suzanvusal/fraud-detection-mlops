@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 12:42:32 — fix: remove unused import in calibrator
 
 # 10:33:10 — test: add assertion for return type in calibrator
+
+# 10:10:37 — style: run black formatter on calibrator
