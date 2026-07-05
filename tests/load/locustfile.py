@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:41:29 — refactor: rename variable for clarity in locustfile
 
 # 10:41:29 — style: run black formatter on locustfile
+
+# 10:14:04 — fix: handle None input edge case in locustfile
