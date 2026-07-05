@@ -23,3 +23,5 @@
 # 11:39:29 — style: reorder imports alphabetically in __init__
 
 # 12:36:06 — docs: update example in docstring of __init__
+
+# 10:14:04 — docs: fix typo in inline comment in __init__
