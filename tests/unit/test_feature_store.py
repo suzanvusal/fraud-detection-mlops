@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 11:29:31 — chore: day 30 maintenance sweep
 
 # 11:16:43 — fix: handle None input edge case in test_feature_store
+
+# 10:14:04 — fix: correct off-by-one error in test_feature_store
