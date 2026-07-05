@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 11:24:49 — chore: add logging statement to alert_templates
 
 # 10:41:29 — fix: remove unused import in alert_templates
+
+# 10:14:04 — fix: correct off-by-one error in alert_templates
