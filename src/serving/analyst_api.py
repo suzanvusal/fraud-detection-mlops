@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 12:17:23 — docs: add module docstring to analyst_api
 
 # 10:43:02 — docs: add module docstring to analyst_api
+
+# 12:05:17 — fix: correct off-by-one error in analyst_api
