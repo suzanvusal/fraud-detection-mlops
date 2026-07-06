@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 10:28:24 — fix: add missing type hint in geo_features
 
 # 10:10:37 — docs: update example in docstring of geo_features
+
+# 12:05:17 — chore: add logging statement to geo_features
