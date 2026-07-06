@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 12:36:06 — refactor: rename variable for clarity in ensemble
 
 # 11:24:49 — fix: remove unused import in ensemble
+
+# 12:05:17 — fix: correct off-by-one error in ensemble
