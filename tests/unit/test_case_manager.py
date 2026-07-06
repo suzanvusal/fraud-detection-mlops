@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 11:51:12 — fix: handle None input edge case in test_case_manager
 
 # 11:24:49 — test: add assertion for return type in test_case_manager
+
+# 12:05:17 — chore: add logging statement to test_case_manager
