@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:49:28 — test: add assertion for return type in test_drift_detector
 
 # 12:36:06 — docs: update example in docstring of test_drift_detector
+
+# 10:57:33 — perf: add caching to test_drift_detector
