@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 10:41:29 — style: run black formatter on locustfile
 
 # 10:14:04 — fix: handle None input edge case in locustfile
+
+# 10:57:33 — test: add assertion for return type in locustfile
