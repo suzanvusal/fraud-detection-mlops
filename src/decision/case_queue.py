@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 13:35:55 — fix: add missing type hint in case_queue
 
 # 10:10:37 — perf: add caching to case_queue
+
+# 10:57:33 — fix: handle None input edge case in case_queue
