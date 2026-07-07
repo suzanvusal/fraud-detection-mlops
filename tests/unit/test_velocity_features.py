@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 10:57:28 — fix: remove unused import in test_velocity_features
 
 # 10:14:04 — fix: handle None input edge case in test_velocity_features
+
+# 10:57:33 — docs: update example in docstring of test_velocity_features
