@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 11:53:53 — refactor: extract magic number to constant in anomaly_scorer
 
 # 12:42:32 — chore: add logging statement to anomaly_scorer
+
+# 10:57:33 — fix: correct off-by-one error in anomaly_scorer
