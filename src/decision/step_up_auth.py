@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 11:39:00 — fix: remove unused import in step_up_auth
 
 # 12:54:30 — docs: update example in docstring of step_up_auth
+
+# 10:57:33 — perf: add caching to step_up_auth
