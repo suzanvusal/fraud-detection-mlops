@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:16:43 — fix: add missing type hint in explainability
 
 # 10:28:24 — style: reorder imports alphabetically in explainability
+
+# 10:57:33 — test: add assertion for return type in explainability
