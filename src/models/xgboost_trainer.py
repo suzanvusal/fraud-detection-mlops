@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:17:49 — refactor: extract magic number to constant in xgboost_traine
 
 # 10:36:48 — docs: add module docstring to xgboost_trainer
+
+# 10:57:33 — fix: remove unused import in xgboost_trainer
