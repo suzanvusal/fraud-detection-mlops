@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 10:36:48 — docs: fix typo in inline comment in rule_engine
 
 # 12:05:17 — fix: remove unused import in rule_engine
+
+# 10:19:40 — docs: update example in docstring of rule_engine
