@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:24:49 — fix: remove unused import in ensemble
 
 # 12:05:17 — fix: correct off-by-one error in ensemble
+
+# 10:19:40 — fix: add missing type hint in ensemble
