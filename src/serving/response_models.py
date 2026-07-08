@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:44:06 — fix: handle None input edge case in response_models
 
 # 10:52:45 — docs: add module docstring to response_models
+
+# 10:19:40 — style: run black formatter on response_models
