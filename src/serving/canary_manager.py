@@ -107,3 +107,5 @@ class CanaryManager:
 # 10:36:48 — chore: add logging statement to canary_manager
 
 # 10:14:04 — docs: update example in docstring of canary_manager
+
+# 10:19:40 — docs: update example in docstring of canary_manager
