@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 12:54:30 — refactor: extract magic number to constant in dlq_handler
 
 # 10:57:28 — perf: add caching to dlq_handler
+
+# 10:19:40 — fix: handle None input edge case in dlq_handler
