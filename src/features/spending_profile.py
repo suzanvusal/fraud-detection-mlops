@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 10:30:17 — refactor: extract magic number to constant in spending_profi
 
 # 12:06:42 — perf: add caching to spending_profile
+
+# 10:19:40 — fix: correct off-by-one error in spending_profile
