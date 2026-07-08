@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:57:33 — docs: fix typo in inline comment in batch_scoring_load
 
 # 10:19:40 — style: reorder imports alphabetically in batch_scoring_load
+
+# 10:19:40 — fix: handle None input edge case in batch_scoring_load
