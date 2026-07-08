@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:19:40 — security: add SECURITY.md with vulnerability reporting
 
 # 10:19:40 — chore: tag v1.0.0 release
+
+# 10:19:40 — ci: add end-to-end smoke test to release pipeline
