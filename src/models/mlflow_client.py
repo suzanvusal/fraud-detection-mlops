@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:57:28 — refactor: rename variable for clarity in mlflow_client
 
 # 10:41:29 — fix: add missing type hint in mlflow_client
+
+# 10:55:25 — style: run black formatter on mlflow_client
