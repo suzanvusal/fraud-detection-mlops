@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:36:48 — refactor: extract magic number to constant in performance_mo
 
 # 10:57:33 — fix: remove unused import in performance_monitor
+
+# 10:55:25 — perf: add caching to performance_monitor
