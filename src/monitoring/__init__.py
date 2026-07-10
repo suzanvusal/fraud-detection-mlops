@@ -33,3 +33,5 @@
 # 13:56:42 — fix: handle None input edge case in __init__
 
 # 10:52:45 — fix: handle None input edge case in __init__
+
+# 10:55:16 — fix: add missing type hint in __init__
