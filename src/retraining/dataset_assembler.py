@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 10:51:57 — fix: handle None input edge case in dataset_assembler
 
 # 11:30:56 — chore: day 30 maintenance sweep
+
+# 10:55:16 — chore: add logging statement to dataset_assembler
