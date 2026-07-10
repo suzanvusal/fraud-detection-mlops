@@ -20,3 +20,5 @@
 # 10:49:28 — fix: correct off-by-one error in __init__
 
 # 10:52:45 — fix: correct off-by-one error in __init__
+
+# 10:55:16 — docs: update example in docstring of __init__
