@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 10:55:16 — chore: tag v1.0.0 release
 
 # 10:55:16 — docs: add fraud detection methodology to docs/
+
+# 10:55:16 — docs: fix broken links in README
