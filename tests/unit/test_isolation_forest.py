@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 12:36:06 — docs: update example in docstring of test_isolation_forest
 
 # 10:10:37 — style: run black formatter on test_isolation_forest
+
+# 10:55:16 — refactor: extract magic number to constant in test_isolation
