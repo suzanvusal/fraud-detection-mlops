@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 11:17:49 — refactor: extract magic number to constant in impossible_tra
 
 # 10:57:33 — style: run black formatter on impossible_travel
+
+# 10:55:16 — test: add assertion for return type in impossible_travel
