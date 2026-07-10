@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 12:05:17 — chore: add logging statement to test_case_manager
 
 # 10:55:25 — chore: day 30 maintenance sweep
+
+# 10:55:16 — refactor: extract magic number to constant in test_case_mana
