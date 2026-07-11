@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 11:16:43 — style: reorder imports alphabetically in validator
 
 # 13:35:55 — style: reorder imports alphabetically in validator
+
+# 09:38:23 — perf: add caching to validator
