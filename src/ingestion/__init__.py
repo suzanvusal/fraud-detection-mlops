@@ -27,3 +27,5 @@
 # 10:28:24 — test: add assertion for return type in __init__
 
 # 10:36:48 — chore: day 30 maintenance sweep
+
+# 09:38:23 — perf: add caching to __init__
