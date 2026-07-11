@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 12:36:06 — chore: day 30 maintenance sweep
 
 # 10:19:40 — docs: fix typo in inline comment in test_geo_features
+
+# 09:38:23 — fix: handle None input edge case in test_geo_features
