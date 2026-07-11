@@ -29,3 +29,5 @@
 # 10:36:48 — chore: day 30 maintenance sweep
 
 # 09:38:23 — perf: add caching to __init__
+
+# 09:38:23 — fix: handle None input edge case in __init__
