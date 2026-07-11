@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 12:36:06 — docs: update example in docstring of test_drift_detector
 
 # 10:57:33 — perf: add caching to test_drift_detector
+
+# 09:38:23 — fix: correct off-by-one error in test_drift_detector
