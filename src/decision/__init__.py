@@ -35,3 +35,5 @@
 # 10:10:37 — chore: add logging statement to __init__
 
 # 12:05:17 — perf: add caching to __init__
+
+# 09:51:10 — style: run black formatter on __init__
