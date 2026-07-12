@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 10:55:16 — refactor: extract magic number to constant in test_case_mana
 
 # 09:38:23 — fix: remove unused import in test_case_manager
+
+# 09:51:10 — test: add assertion for return type in test_case_manager
