@@ -37,3 +37,5 @@
 # 12:05:17 — perf: add caching to __init__
 
 # 09:51:10 — style: run black formatter on __init__
+
+# 09:51:10 — docs: update example in docstring of __init__
