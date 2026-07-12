@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:33:10 — docs: update example in docstring of conftest
 
 # 10:51:06 — chore: day 30 maintenance sweep
+
+# 09:51:10 — fix: handle None input edge case in conftest
