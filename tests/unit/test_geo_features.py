@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 09:38:23 — fix: handle None input edge case in test_geo_features
 
 # 09:51:10 — refactor: rename variable for clarity in test_geo_features
+
+# 09:51:10 — perf: add caching to test_geo_features
