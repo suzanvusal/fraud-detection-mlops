@@ -101,3 +101,5 @@ def transaction_stream(
 # 10:10:37 — refactor: rename variable for clarity in simulator
 
 # 10:55:25 — test: add assertion for return type in simulator
+
+# 11:12:07 — fix: add missing type hint in simulator
