@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:09:59 — chore: day 30 maintenance sweep
 
 # 10:28:24 — style: run black formatter on test_full_pipeline
+
+# 11:12:07 — fix: handle None input edge case in test_full_pipeline
