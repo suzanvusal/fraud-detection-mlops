@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 09:38:23 — fix: correct off-by-one error in test_drift_detector
 
 # 09:38:23 — docs: add module docstring to test_drift_detector
+
+# 11:12:07 — docs: add module docstring to test_drift_detector
