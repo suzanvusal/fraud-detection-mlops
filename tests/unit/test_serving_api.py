@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:24:49 — chore: add logging statement to test_serving_api
 
 # 10:55:25 — fix: handle None input edge case in test_serving_api
+
+# 11:12:07 — fix: remove unused import in test_serving_api
