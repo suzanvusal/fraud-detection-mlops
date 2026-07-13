@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 09:38:23 — fix: remove unused import in test_case_manager
 
 # 09:51:10 — test: add assertion for return type in test_case_manager
+
+# 11:12:07 — docs: add module docstring to test_case_manager
