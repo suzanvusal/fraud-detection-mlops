@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:41:29 — fix: remove unused import in alert_templates
 
 # 10:14:04 — fix: correct off-by-one error in alert_templates
+
+# 09:58:50 — fix: handle None input edge case in alert_templates
