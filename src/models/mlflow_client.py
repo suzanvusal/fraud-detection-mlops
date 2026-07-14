@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 10:55:25 — style: run black formatter on mlflow_client
 
 # 09:58:50 — chore: day 30 maintenance sweep
+
+# 09:58:50 — fix: correct off-by-one error in mlflow_client
