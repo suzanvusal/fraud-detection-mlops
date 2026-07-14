@@ -35,3 +35,5 @@
 # 11:16:43 — refactor: rename variable for clarity in __init__
 
 # 09:38:23 — refactor: rename variable for clarity in __init__
+
+# 09:58:50 — refactor: extract magic number to constant in __init__
