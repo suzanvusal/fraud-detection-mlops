@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 10:41:30 — style: run black formatter on feature_store
 
 # 09:51:10 — refactor: rename variable for clarity in feature_store
+
+# 09:58:50 — refactor: extract magic number to constant in feature_store
