@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 11:24:49 — test: add assertion for return type in isolation_forest
 
 # 11:12:07 — chore: day 30 maintenance sweep
+
+# 10:03:25 — fix: correct off-by-one error in isolation_forest
