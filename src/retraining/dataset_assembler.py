@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 11:30:56 — chore: day 30 maintenance sweep
 
 # 10:55:16 — chore: add logging statement to dataset_assembler
+
+# 10:03:26 — fix: add missing type hint in dataset_assembler
