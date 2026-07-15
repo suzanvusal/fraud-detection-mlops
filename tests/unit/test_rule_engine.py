@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 11:44:06 — style: run black formatter on test_rule_engine
 
 # 10:51:06 — refactor: rename variable for clarity in test_rule_engine
+
+# 10:03:25 — docs: add module docstring to test_rule_engine
