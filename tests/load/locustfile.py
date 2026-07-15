@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 10:14:04 — fix: handle None input edge case in locustfile
 
 # 10:57:33 — test: add assertion for return type in locustfile
+
+# 10:03:25 — perf: add caching to locustfile
