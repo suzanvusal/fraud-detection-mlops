@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:28:24 — style: reorder imports alphabetically in explainability
 
 # 10:57:33 — test: add assertion for return type in explainability
+
+# 10:03:25 — refactor: extract magic number to constant in explainability
