@@ -111,3 +111,5 @@ class VelocityFeatureEngine:
 # 10:57:28 — style: reorder imports alphabetically in velocity_features
 
 # 10:41:30 — fix: remove unused import in velocity_features
+
+# 10:03:25 — fix: correct off-by-one error in velocity_features
