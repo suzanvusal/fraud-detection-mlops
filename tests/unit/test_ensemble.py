@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 12:05:17 — chore: day 30 maintenance sweep
 
 # 10:55:25 — chore: day 30 maintenance sweep
+
+# 10:03:25 — fix: handle None input edge case in test_ensemble
