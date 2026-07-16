@@ -26,3 +26,5 @@
 # 10:43:02 — fix: add missing type hint in __init__
 
 # 10:09:59 — fix: handle None input edge case in __init__
+
+# 10:09:01 — refactor: extract magic number to constant in __init__
