@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 09:51:10 — style: run black formatter on access_control
 
 # 09:57:33 — docs: update example in docstring of access_control
+
+# 09:57:33 — fix: handle None input edge case in access_control
