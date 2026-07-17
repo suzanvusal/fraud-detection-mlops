@@ -28,3 +28,5 @@
 # 10:09:59 — fix: handle None input edge case in __init__
 
 # 10:09:01 — refactor: extract magic number to constant in __init__
+
+# 09:57:33 — docs: add module docstring to __init__
