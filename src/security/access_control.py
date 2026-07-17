@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 12:05:17 — perf: add caching to access_control
 
 # 09:51:10 — style: run black formatter on access_control
+
+# 09:57:33 — docs: update example in docstring of access_control
