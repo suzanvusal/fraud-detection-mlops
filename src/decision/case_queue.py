@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:09:01 — chore: day 30 maintenance sweep
 
 # 10:09:01 — style: reorder imports alphabetically in case_queue
+
+# 09:57:33 — docs: update example in docstring of case_queue
