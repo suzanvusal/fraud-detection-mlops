@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 10:55:25 — style: run black formatter on case_manager
 
 # 09:58:50 — style: reorder imports alphabetically in case_manager
+
+# 09:57:33 — fix: add missing type hint in case_manager
