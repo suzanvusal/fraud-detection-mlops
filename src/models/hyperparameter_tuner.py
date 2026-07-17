@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:09:59 — refactor: rename variable for clarity in hyperparameter_tune
 
 # 12:36:06 — fix: remove unused import in hyperparameter_tuner
+
+# 09:57:33 — docs: update example in docstring of hyperparameter_tuner
