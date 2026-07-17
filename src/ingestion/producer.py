@@ -88,3 +88,5 @@ class TransactionProducer:
 # 10:51:06 — fix: handle None input edge case in producer
 
 # 10:57:28 — refactor: extract magic number to constant in producer
+
+# 09:57:33 — docs: update example in docstring of producer
