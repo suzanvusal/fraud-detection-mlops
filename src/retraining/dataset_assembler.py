@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:03:26 — fix: add missing type hint in dataset_assembler
 
 # 09:57:33 — fix: add missing type hint in dataset_assembler
+
+# 09:26:25 — fix: correct off-by-one error in dataset_assembler
