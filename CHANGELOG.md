@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 09:26:25 — ci: add end-to-end smoke test to release pipeline
 
 # 09:26:25 — docs: add fraud detection methodology to docs/
+
+# 09:26:25 — fix: env variable names inconsistent across services
