@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:55:25 — docs: add module docstring to performance_monitor
 
 # 10:09:01 — refactor: rename variable for clarity in performance_monitor
+
+# 09:26:25 — test: add assertion for return type in performance_monitor
