@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 09:38:23 — docs: add module docstring to test_drift_detector
 
 # 11:12:07 — docs: add module docstring to test_drift_detector
+
+# 09:26:25 — docs: update example in docstring of test_drift_detector
