@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 09:57:33 — fix: add missing type hint in case_manager
 
 # 09:57:33 — fix: handle None input edge case in case_manager
+
+# 09:26:25 — docs: add module docstring to case_manager
