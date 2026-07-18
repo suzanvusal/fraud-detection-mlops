@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 11:24:49 — refactor: rename variable for clarity in score_fusion
 
 # 10:03:25 — chore: add logging statement to score_fusion
+
+# 09:26:25 — docs: update example in docstring of score_fusion
