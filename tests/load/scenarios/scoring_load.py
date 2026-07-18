@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 11:16:43 — style: reorder imports alphabetically in scoring_load
 
 # 11:12:07 — docs: fix typo in inline comment in scoring_load
+
+# 09:26:25 — docs: add module docstring to scoring_load
