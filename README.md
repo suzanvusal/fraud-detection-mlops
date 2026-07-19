@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 09:52:11 — security: add SECURITY.md with vulnerability reporting
+
+# 09:52:11 — ci: add end-to-end smoke test to release pipeline
