@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:10:37 — chore: day 30 maintenance sweep
 
 # 12:05:17 — style: run black formatter on fraud_simulator
+
+# 09:52:12 — docs: add module docstring to fraud_simulator
