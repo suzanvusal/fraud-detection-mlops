@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:28:24 — refactor: extract magic number to constant in model_validato
 
 # 10:36:48 — fix: correct off-by-one error in model_validator
+
+# 09:52:12 — fix: add missing type hint in model_validator
