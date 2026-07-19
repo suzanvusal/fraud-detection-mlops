@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 09:51:10 — fix: add missing type hint in window_aggregator
 
 # 09:57:33 — style: reorder imports alphabetically in window_aggregator
+
+# 09:52:12 — perf: add caching to window_aggregator
