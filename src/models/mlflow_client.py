@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 09:58:50 — fix: correct off-by-one error in mlflow_client
 
 # 10:09:01 — style: reorder imports alphabetically in mlflow_client
+
+# 09:52:12 — test: add assertion for return type in mlflow_client
