@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 12:06:42 — perf: add caching to spending_profile
 
 # 10:19:40 — fix: correct off-by-one error in spending_profile
+
+# 10:52:44 — perf: add caching to spending_profile
