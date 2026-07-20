@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 10:19:40 — chore: add logging statement to fraud_model_retraining
 
 # 09:38:23 — docs: add module docstring to fraud_model_retraining
+
+# 10:52:44 — fix: handle None input edge case in fraud_model_retraining
