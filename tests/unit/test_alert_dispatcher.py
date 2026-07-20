@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:55:16 — fix: handle None input edge case in test_alert_dispatcher
 
 # 10:52:44 — test: add assertion for return type in test_alert_dispatcher
+
+# 10:52:44 — fix: correct off-by-one error in test_alert_dispatcher
