@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 12:54:30 — chore: day 30 maintenance sweep
 
 # 10:14:04 — docs: add module docstring to feature_engineering
+
+# 10:52:44 — perf: add caching to feature_engineering
