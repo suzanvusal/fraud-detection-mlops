@@ -43,3 +43,5 @@ logger = logging.getLogger(__name__)
 # 10:09:01 — fix: add missing type hint in topic_admin
 
 # 10:52:44 — fix: add missing type hint in topic_admin
+
+# 10:52:44 — refactor: extract magic number to constant in topic_admin
