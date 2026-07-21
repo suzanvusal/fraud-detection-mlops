@@ -107,3 +107,5 @@ def transaction_stream(
 # 09:57:33 — docs: fix typo in inline comment in simulator
 
 # 10:25:47 — docs: fix typo in inline comment in simulator
+
+# 10:25:47 — fix: correct off-by-one error in simulator
