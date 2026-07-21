@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 10:10:37 — style: run black formatter on calibrator
 
 # 10:09:01 — fix: add missing type hint in calibrator
+
+# 10:25:47 — perf: add caching to calibrator
