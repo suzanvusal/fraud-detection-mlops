@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 10:14:04 — fix: correct off-by-one error in test_feature_store
 
 # 10:14:04 — refactor: rename variable for clarity in test_feature_store
+
+# 10:25:47 — fix: correct off-by-one error in test_feature_store
