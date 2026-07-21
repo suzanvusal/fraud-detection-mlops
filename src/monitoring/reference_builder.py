@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:10:37 — perf: add caching to reference_builder
 
 # 11:12:07 — fix: add missing type hint in reference_builder
+
+# 10:25:47 — fix: correct off-by-one error in reference_builder
