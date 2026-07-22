@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:57:33 — fix: remove unused import in xgboost_trainer
 
 # 10:09:01 — fix: handle None input edge case in xgboost_trainer
+
+# 10:25:34 — chore: add logging statement to xgboost_trainer
