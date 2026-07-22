@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 10:25:34 — chore: add logging statement to xgboost_trainer
 
 # 10:25:34 — chore: day 30 maintenance sweep
+
+# 10:25:34 — test: add assertion for return type in xgboost_trainer
