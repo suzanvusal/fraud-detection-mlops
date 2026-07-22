@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 09:51:10 — test: add assertion for return type in impossible_travel
 
 # 09:51:10 — fix: remove unused import in impossible_travel
+
+# 10:25:34 — perf: add caching to impossible_travel
