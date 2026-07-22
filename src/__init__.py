@@ -32,3 +32,5 @@ __version__ = "0.1.0"
 # 10:14:04 — fix: add missing type hint in __init__
 
 # 10:03:25 — docs: add module docstring to __init__
+
+# 10:25:35 — fix: correct off-by-one error in __init__
