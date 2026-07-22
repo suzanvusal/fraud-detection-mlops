@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 10:03:25 — fix: handle None input edge case in test_ensemble
 
 # 09:52:12 — fix: remove unused import in test_ensemble
+
+# 10:25:35 — fix: handle None input edge case in test_ensemble
