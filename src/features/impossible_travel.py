@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 10:25:34 — perf: add caching to impossible_travel
 
 # 10:25:34 — fix: add missing type hint in impossible_travel
+
+# 10:23:27 — refactor: extract magic number to constant in impossible_tra
