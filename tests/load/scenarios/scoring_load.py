@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 09:26:25 — docs: add module docstring to scoring_load
 
 # 09:52:12 — refactor: rename variable for clarity in scoring_load
+
+# 10:23:27 — fix: remove unused import in scoring_load
