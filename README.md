@@ -60,9 +60,3 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 
 ## License
 MIT
-
-# 10:25:34 — security: add SECURITY.md with vulnerability reporting
-
-# 10:25:34 — chore: tag v1.0.0 release
-
-# 10:25:34 — chore: final dependency audit and update
