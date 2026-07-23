@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 10:03:25 — chore: add logging statement to score_fusion
 
 # 09:26:25 — docs: update example in docstring of score_fusion
+
+# 10:23:27 — style: run black formatter on score_fusion
