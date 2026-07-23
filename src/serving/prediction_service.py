@@ -43,3 +43,5 @@ logger = logging.getLogger(__name__)
 # 10:36:48 — docs: add module docstring to prediction_service
 
 # 10:57:33 — style: reorder imports alphabetically in prediction_service
+
+# 10:23:27 — perf: add caching to prediction_service
