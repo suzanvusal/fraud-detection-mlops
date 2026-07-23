@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 10:52:45 — style: run black formatter on threshold_manager
 
 # 09:26:25 — style: run black formatter on threshold_manager
+
+# 10:23:27 — perf: add caching to threshold_manager
