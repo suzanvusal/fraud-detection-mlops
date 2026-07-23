@@ -33,3 +33,5 @@
 # 12:05:17 — docs: fix typo in inline comment in __init__
 
 # 10:09:01 — style: reorder imports alphabetically in __init__
+
+# 10:23:27 — perf: add caching to __init__
