@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 12:36:06 — chore: add logging statement to merchant_risk
 
 # 10:55:25 — chore: day 30 maintenance sweep
+
+# 10:18:45 — test: add assertion for return type in merchant_risk
