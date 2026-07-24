@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:19:40 — docs: fix typo in inline comment in model_promoter
 
 # 09:38:23 — style: run black formatter on model_promoter
+
+# 10:18:45 — docs: add module docstring to model_promoter
