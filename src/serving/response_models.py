@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:19:40 — style: run black formatter on response_models
 
 # 09:51:10 — style: reorder imports alphabetically in response_models
+
+# 10:18:45 — chore: add logging statement to response_models
