@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 10:14:04 — docs: add module docstring to feature_engineering
 
 # 10:52:44 — perf: add caching to feature_engineering
+
+# 10:18:46 — docs: update example in docstring of feature_engineering
