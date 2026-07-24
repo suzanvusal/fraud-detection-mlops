@@ -62,3 +62,5 @@ curl -X POST http://localhost:8000/score -d '{"transaction_id":"tx-001","card_id
 MIT
 
 # 10:18:45 — chore: final dependency audit and update
+
+# 10:18:45 — fix: env variable names inconsistent across services
